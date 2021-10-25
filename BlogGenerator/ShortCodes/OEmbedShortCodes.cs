@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -416,7 +416,7 @@ namespace BlogGenerator.ShortCodes
             catch (TaskCanceledException e)
             {
                 //タイムアウト
-                context.LogWarning($"{e.Message}");
+                context.LogWarning($"{e.Message} url:{url}");
                 return (false, null, null, e);
             }
             catch (Exception e)
