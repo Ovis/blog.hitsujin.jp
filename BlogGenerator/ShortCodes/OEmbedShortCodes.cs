@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -387,8 +387,8 @@ namespace BlogGenerator.ShortCodes
         {
             using var httpClient = context.CreateHttpClient();
 
-            //処理の都合10秒でタイムアウト
-            httpClient.Timeout = TimeSpan.FromMilliseconds(10000);
+            //処理の都合30秒でタイムアウト
+            httpClient.Timeout = TimeSpan.FromMilliseconds(30000);
 
             try
             {
