@@ -28,7 +28,7 @@ jobs:
         run: git submodule update --remote --recursive
       - uses: actions/setup-dotnet@v1
         with:
-            dotnet-version: 5.0.x
+            dotnet-version: 8.0.x
       - run: dotnet restore ./BlogGenerator/BlogGenerator.csproj
       - run: dotnet build ./BlogGenerator/BlogGenerator.csproj --configuration Release --no-restore
       - run: dotnet run --project ./BlogGenerator/BlogGenerator.csproj --deploy
