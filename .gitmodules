@@ -1,6 +1,3 @@
-[submodule "BlogGenerator/theme"]
-	path = BlogGenerator/theme
-	url = https://github.com/Ovis/HitsujinBlogTheme.git
-[submodule "BlogGenerator/input"]
-	path = BlogGenerator/input
+[submodule "BlogGenerator/src/input"]
+	path = BlogGenerator/src/input
 	url = https://github.com/Ovis/blog.hitsujin.jp.article.git
