@@ -1,0 +1,121 @@
+name: Deploy Azure Static Web Apps
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+  repository_dispatch:
+    types: [update]
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed') || (github.event_name == 'repository_dispatch' && github.event.action == 'update')
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+      - uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: "Asia/Tokyo"
+
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: Checkout article repository into ./input
+        uses: actions/checkout@v4
+        with:
+          repository: Ovis/blog.hitsujin.jp.article
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: input
+
+      - name: Prepare artifact dir
+        run: mkdir -p ./Artifact
+
+      - name: Resolve workflow ID
+        id: wf
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const workflows = await github.rest.actions.listRepoWorkflows({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            const wfInfo = workflows.data.workflows.find(w => w.path === '.github/workflows/deploy-azure-static-web-apps.yml');
+            core.setOutput('id', wfInfo.id);
+            console.log(`🔍 Resolved workflow ID: ${wfInfo.id}`);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Find last successful staging run
+        id: find_run
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const runResponse = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: ${{ steps.wf.outputs.id }},
+              status: 'success',
+              per_page: 1
+            });
+            const lastRun = runResponse.data.workflow_runs[0];
+            const runId = lastRun ? lastRun.id : '';
+            core.setOutput('run_id', runId);
+            console.log(`🔎 Last successful staging run ID: ${runId || '(none)'}`);
+
+      - name: Download oembed.json artifact
+        if: ${{ steps.find_run.outputs.run_id }}
+        uses: actions/download-artifact@v4
+        with:
+          name: oembed
+          path: ./
+          run-id: ${{ steps.find_run.outputs.run_id }}
+          repository: Ovis/blog.hitsujin.jp
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - uses: actions/setup-dotnet@v4
+        with:
+            dotnet-version: 8.0.x
+
+      - name: Install BlogGenerator as a global tool
+        run: |
+          dotnet tool install --global eSheepDev.BlogGenerator
+          echo "PATH=$HOME/.dotnet/tools:$PATH" >> $GITHUB_ENV
+
+      - name: Run BlogGenerator
+        run: |
+          bloggen --input ./input --output ./output --theme ./templates --oembed ./oembed.json --config ./blogconfig.json
+
+      - name: Upload oembed.json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: oembed
+          path: ./oembed.json
+          retention-days: 90
+
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "./output"
+          skip_app_build: true
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
+          action: "close"

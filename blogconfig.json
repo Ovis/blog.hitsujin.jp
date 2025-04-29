@@ -8,8 +8,11 @@
     "AmazonAssociateTag": "ovis-22"
   },
   "FeedOption": {
-    "FeedIndexNum": 10,
+    "MaxFeedItems": 10,
     "UseRss2": true,
-    "UseAtom": true
+    "RssFileName": "feed.rss",
+    "UseAtom": true,
+    "AtomFileName": "feed.atom",
+    "Language": "ja-JP"
   }
 }

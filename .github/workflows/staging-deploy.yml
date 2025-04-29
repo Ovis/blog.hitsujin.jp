@@ -1,0 +1,128 @@
+name: Deploy to SWA Staging
+
+on:
+  repository_dispatch:
+    types: [staging, close-staging]
+
+jobs:
+  staging_job:
+    runs-on: ubuntu-latest
+    env:
+      PR_BRANCH: ${{ github.event.client_payload.branch }}
+      PR_NUMBER: ${{ github.event.client_payload.pull_number }}
+
+    steps:
+      - uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: Asia/Tokyo
+
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: Checkout article repository into ./input
+        uses: actions/checkout@v4
+        if: ${{ github.event.action == 'staging' }}
+        with:
+          repository: Ovis/blog.hitsujin.jp.article
+          ref: ${{ github.event.client_payload.branch }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: input
+
+      - name: Prepare artifact dir
+        if: ${{ github.event.action == 'staging' }}
+        run: mkdir -p ./Artifact
+
+      - name: Resolve workflow ID
+        if: ${{ github.event.action == 'staging' }}
+        id: wf
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const workflows = await github.rest.actions.listRepoWorkflows({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            const wfInfo = workflows.data.workflows.find(w => w.path === '.github/workflows/staging-deploy.yml');
+            core.setOutput('id', wfInfo.id);
+            console.log(`🔍 Resolved workflow ID: ${wfInfo.id}`);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Find last successful staging run
+        if: ${{ github.event.action == 'staging' }}
+        id: find_run
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const runResponse = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: ${{ steps.wf.outputs.id }},
+              status: 'success',
+              per_page: 1
+            });
+            const lastRun = runResponse.data.workflow_runs[0];
+            const runId = lastRun ? lastRun.id : '';
+            core.setOutput('run_id', runId);
+            console.log(`🔎 Last successful staging run ID: ${runId || '(none)'}`);
+
+      - name: Download oembed.json artifact
+        if: ${{ steps.find_run.outputs.run_id }}
+        uses: actions/download-artifact@v4
+        with:
+          name: oembed
+          path: ./
+          run-id: ${{ steps.find_run.outputs.run_id }}
+          repository: Ovis/blog.hitsujin.jp
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - uses: actions/setup-dotnet@v4
+        if: ${{ github.event.action == 'staging' }}
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install BlogGenerator tool
+        if: ${{ github.event.action == 'staging' }}
+        run: |
+          dotnet tool install --global eSheepDev.BlogGenerator
+          echo "PATH=$HOME/.dotnet/tools:$PATH" >> $GITHUB_ENV
+
+      - name: Run BlogGenerator
+        if: ${{ github.event.action == 'staging' }}
+        run: |
+          bloggen \
+            --input ./input \
+            --output ./output \
+            --theme ./templates \
+            --oembed ./oembed.json \
+            --config ./blogconfig.json
+
+      - name: Upload oembed.json artifact
+        if: ${{ github.event.action == 'staging' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: oembed
+          path: ./oembed.json
+          retention-days: 90
+
+      - name: Deploy to SWA Staging
+        if: ${{ github.event.action == 'staging' }}
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: upload
+          app_location: "./output"
+          skip_app_build: true
+          # プレビュー環境にデプロイ
+          deployment_environment: "staging"
+
+      - name: Close SWA Staging
+        if: ${{ github.event.action == 'close-staging' }}
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
+          action: close
+          deployment_environment: "staging"
