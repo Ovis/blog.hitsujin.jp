@@ -116,8 +116,6 @@ jobs:
           action: upload
           app_location: "./output"
           skip_app_build: true
-          # プレビュー環境にデプロイ
-          deployment_environment: "staging"
 
       - name: Close SWA Staging
         if: ${{ github.event.action == 'close-staging' }}
@@ -126,3 +124,5 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
           action: close
           deployment_environment: "staging"
+          pull_request_id: ${{ env.PR_NUMBER }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
