@@ -1,32 +1,31 @@
-﻿@using RazorLight
 @using BlogGenerator.Models
+@using RazorLight
 @inherits TemplatePage<PageModel>
 @{
-    var model = Model;
-    var article = model.Articles.First();
-
-    var tags = model.Articles.SelectMany(x => x.Tags).Distinct().ToArray()
+    var tags = Model.Articles.SelectMany(x => x.Tags).Distinct().ToArray()
         .Select(tag => new
         {
             Tag = tag,
-            Count = model.Articles.Count(x => x.Tags.Contains(tag))
+            Count = Model.Articles.Count(x => x.Tags.Contains(tag))
         })
-        .OrderByDescending(r => r.Count)
+        .OrderByDescending(x => x.Count)
+        .ThenBy(x => x.Tag)
         .ToArray();
 }
 
-<article class="card mb-6">
-    <div class="card-content">
-        <div class="content">
-            @foreach (var tag in tags)
-            {
-                <a class="panel-block" href="@Model.GeneratePath($"/tags/{tag.Tag}")">
-                    <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                    </span>
-                    <span>@tag.Tag (@tag.Count)</span>
+<section class="tag-index">
+    <header class="section-header">
+        <p class="article-kicker">Topics</p>
+        <h1>タグから記事を探す</h1>
+    </header>
+    <ul class="tag-cloud">
+        @foreach (var tag in tags)
+        {
+            <li>
+                <a href="@Model.GeneratePath($"/tags/{tag.Tag}")">
+                    <span>@tag.Tag</span><small>@tag.Count</small>
                 </a>
-            }
-        </div>
-    </div>
-</article>
+            </li>
+        }
+    </ul>
+</section>
