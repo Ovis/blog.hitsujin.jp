@@ -1,121 +1,115 @@
-name: Deploy Azure Static Web Apps
+name: Deploy Production
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - master
   repository_dispatch:
-    types: [update]
+    types:
+      - production
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed') || (github.event_name == 'repository_dispatch' && github.event.action == 'update')
+  deploy:
+    name: Build and deploy production
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+
+    concurrency:
+      group: oembed-cache
+      cancel-in-progress: false
+
     steps:
-      - uses: szenius/set-timezone@v2.0
-        with:
-          timezoneLinux: "Asia/Tokyo"
+      - name: Set timezone
+        run: sudo timedatectl set-timezone Asia/Tokyo
 
-      - uses: actions/checkout@v4
-        with:
-          submodules: false
+      - name: Checkout site repository
+        uses: actions/checkout@v7
 
-      - name: Checkout article repository into ./input
-        uses: actions/checkout@v4
+      - name: Checkout article repository
+        uses: actions/checkout@v7
         with:
           repository: Ovis/blog.hitsujin.jp.article
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: master
           path: input
 
-      - name: Prepare artifact dir
-        run: mkdir -p ./Artifact
+      - name: Check oEmbed cache branch
+        id: oembed-cache
+        run: |
+          if git ls-remote --exit-code --heads origin refs/heads/oembed-cache > /dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Resolve workflow ID
-        id: wf
-        uses: actions/github-script@v6
+      - name: Checkout oEmbed cache
+        if: steps.oembed-cache.outputs.exists == 'true'
+        uses: actions/checkout@v7
         with:
-          script: |
-            const workflows = await github.rest.actions.listRepoWorkflows({
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            });
-            const wfInfo = workflows.data.workflows.find(w => w.path === '.github/workflows/deploy-azure-static-web-apps.yml');
-            core.setOutput('id', wfInfo.id);
-            console.log(`🔍 Resolved workflow ID: ${wfInfo.id}`);
+          ref: oembed-cache
+          path: .oembed-cache
+
+      - name: Initialize oEmbed cache branch
+        if: steps.oembed-cache.outputs.exists != 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Find last successful staging run
-        id: find_run
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const runResponse = await github.rest.actions.listWorkflowRuns({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: ${{ steps.wf.outputs.id }},
-              status: 'success',
-              per_page: 1
-            });
-            const lastRun = runResponse.data.workflow_runs[0];
-            const runId = lastRun ? lastRun.id : '';
-            core.setOutput('run_id', runId);
-            console.log(`🔎 Last successful staging run ID: ${runId || '(none)'}`);
-
-      - name: Download oembed.json artifact
-        if: ${{ steps.find_run.outputs.run_id }}
-        uses: actions/download-artifact@v4
-        with:
-          name: oembed
-          path: ./
-          run-id: ${{ steps.find_run.outputs.run_id }}
-          repository: Ovis/blog.hitsujin.jp
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      - uses: actions/setup-dotnet@v4
-        with:
-            dotnet-version: 8.0.x
-
-      - name: Install BlogGenerator as a global tool
+          GH_TOKEN: ${{ github.token }}
         run: |
-          dotnet tool install --global eSheepDev.BlogGenerator
-          echo "PATH=$HOME/.dotnet/tools:$PATH" >> $GITHUB_ENV
+          git clone --no-checkout \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            .oembed-cache
 
-      - name: Run BlogGenerator
-        run: |
-          bloggen --input ./input --output ./output --theme ./templates --oembed ./oembed.json --config ./blogconfig.json
+          cd .oembed-cache
 
-      - name: Upload oembed.json artifact
-        uses: actions/upload-artifact@v4
+          git switch --orphan oembed-cache
+          git rm -rf --ignore-unmatch .
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          touch .gitkeep
+
+          git add .gitkeep
+
+          git commit -m "Initialize oEmbed cache"
+          git push --set-upstream origin oembed-cache
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v6
         with:
-          name: oembed
-          path: ./oembed.json
-          retention-days: 90
+          dotnet-version: 10.0.x
 
-      - name: Build And Deploy
-        id: builddeploy
+      - name: Install BlogGenerator
+        run: dotnet tool install --global eSheepDev.BlogGenerator
+
+      - name: Generate blog
+        run: |
+          bloggen \
+            --input ./input \
+            --output ./output \
+            --theme ./templates \
+            --oembed ./.oembed-cache/oembed.json \
+            --config ./blogconfig.json
+
+      - name: Update oEmbed cache
+        working-directory: ./.oembed-cache
+        run: |
+          if [ -z "$(git status --porcelain -- oembed.json)" ]; then
+            echo "oEmbed cache is unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add oembed.json
+          git commit -m "Update oEmbed cache"
+          git push
+
+      - name: Deploy to production
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: "upload"
-          app_location: "./output"
+          repo_token: ${{ github.token }}
+          action: upload
+          app_location: ./output
           skip_app_build: true
-
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Close Pull Request Job
-    steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
-          action: "close"

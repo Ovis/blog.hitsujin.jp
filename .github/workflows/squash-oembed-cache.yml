@@ -1,0 +1,36 @@
+name: Squash oEmbed Cache
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  squash:
+    name: Squash oEmbed cache branch
+    runs-on: ubuntu-latest
+
+    concurrency:
+      group: oembed-cache
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout oEmbed cache
+        uses: actions/checkout@v7
+        with:
+          ref: oembed-cache
+          fetch-depth: 0
+
+      - name: Squash oEmbed cache history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 現在のファイル内容を保持したまま、親を持たない新しいcommitを作成
+          TREE=$(git write-tree)
+          COMMIT=$(echo "Squash oEmbed cache branch" | git commit-tree "$TREE")
+
+          # oembed-cacheを新しいroot commitへ置き換える
+          git reset --hard "$COMMIT"
+          git push --force-with-lease origin HEAD:oembed-cache

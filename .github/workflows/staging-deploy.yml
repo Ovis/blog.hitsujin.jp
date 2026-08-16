@@ -1,128 +1,130 @@
-name: Deploy to SWA Staging
+name: Deploy Staging
 
 on:
   repository_dispatch:
-    types: [staging, close-staging]
+    types:
+      - staging
+      - close-staging
+
+permissions:
+  contents: write
 
 jobs:
-  staging_job:
+  deploy:
+    name: Build and deploy staging
+    if: github.event.action == 'staging'
     runs-on: ubuntu-latest
-    env:
-      PR_BRANCH: ${{ github.event.client_payload.branch }}
-      PR_NUMBER: ${{ github.event.client_payload.pull_number }}
+
+    concurrency:
+      group: oembed-cache
+      cancel-in-progress: false
 
     steps:
-      - uses: szenius/set-timezone@v2.0
-        with:
-          timezoneLinux: Asia/Tokyo
+      - name: Set timezone
+        run: sudo timedatectl set-timezone Asia/Tokyo
 
-      - uses: actions/checkout@v4
-        with:
-          submodules: false
+      - name: Checkout site repository
+        uses: actions/checkout@v7
 
-      - name: Checkout article repository into ./input
-        uses: actions/checkout@v4
-        if: ${{ github.event.action == 'staging' }}
+      - name: Checkout article repository
+        uses: actions/checkout@v7
         with:
           repository: Ovis/blog.hitsujin.jp.article
           ref: ${{ github.event.client_payload.branch }}
-          token: ${{ secrets.GITHUB_TOKEN }}
           path: input
 
-      - name: Prepare artifact dir
-        if: ${{ github.event.action == 'staging' }}
-        run: mkdir -p ./Artifact
-
-      - name: Resolve workflow ID
-        if: ${{ github.event.action == 'staging' }}
-        id: wf
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const workflows = await github.rest.actions.listRepoWorkflows({
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            });
-            const wfInfo = workflows.data.workflows.find(w => w.path === '.github/workflows/staging-deploy.yml');
-            core.setOutput('id', wfInfo.id);
-            console.log(`🔍 Resolved workflow ID: ${wfInfo.id}`);
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Find last successful staging run
-        if: ${{ github.event.action == 'staging' }}
-        id: find_run
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const runResponse = await github.rest.actions.listWorkflowRuns({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: ${{ steps.wf.outputs.id }},
-              status: 'success',
-              per_page: 1
-            });
-            const lastRun = runResponse.data.workflow_runs[0];
-            const runId = lastRun ? lastRun.id : '';
-            core.setOutput('run_id', runId);
-            console.log(`🔎 Last successful staging run ID: ${runId || '(none)'}`);
-
-      - name: Download oembed.json artifact
-        if: ${{ steps.find_run.outputs.run_id }}
-        uses: actions/download-artifact@v4
-        with:
-          name: oembed
-          path: ./
-          run-id: ${{ steps.find_run.outputs.run_id }}
-          repository: Ovis/blog.hitsujin.jp
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      - uses: actions/setup-dotnet@v4
-        if: ${{ github.event.action == 'staging' }}
-        with:
-          dotnet-version: 8.0.x
-
-      - name: Install BlogGenerator tool
-        if: ${{ github.event.action == 'staging' }}
+      - name: Check oEmbed cache branch
+        id: oembed-cache
         run: |
-          dotnet tool install --global eSheepDev.BlogGenerator
-          echo "PATH=$HOME/.dotnet/tools:$PATH" >> $GITHUB_ENV
+          if git ls-remote --exit-code --heads origin refs/heads/oembed-cache > /dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Run BlogGenerator
-        if: ${{ github.event.action == 'staging' }}
+      - name: Checkout oEmbed cache
+        if: steps.oembed-cache.outputs.exists == 'true'
+        uses: actions/checkout@v7
+        with:
+          ref: oembed-cache
+          path: .oembed-cache
+
+      - name: Initialize oEmbed cache branch
+        if: steps.oembed-cache.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git clone --no-checkout \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            .oembed-cache
+
+          cd .oembed-cache
+
+          git switch --orphan oembed-cache
+          git rm -rf --ignore-unmatch .
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          touch .gitkeep
+
+          git add .gitkeep
+
+          git commit -m "Initialize oEmbed cache"
+          git push --set-upstream origin oembed-cache
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install BlogGenerator
+        run: dotnet tool install --global eSheepDev.BlogGenerator
+
+      - name: Generate blog
         run: |
           bloggen \
             --input ./input \
             --output ./output \
             --theme ./templates \
-            --oembed ./oembed.json \
+            --oembed ./.oembed-cache/oembed.json \
             --config ./blogconfig.json
 
-      - name: Upload oembed.json artifact
-        if: ${{ github.event.action == 'staging' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: oembed
-          path: ./oembed.json
-          retention-days: 90
+      - name: Update oEmbed cache
+        working-directory: ./.oembed-cache
+        run: |
+          if [ -z "$(git status --porcelain -- oembed.json)" ]; then
+            echo "oEmbed cache is unchanged."
+            exit 0
+          fi
 
-      - name: Deploy to SWA Staging
-        if: ${{ github.event.action == 'staging' }}
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add oembed.json
+          git commit -m "Update oEmbed cache"
+          git push
+
+      - name: Deploy to SWA staging
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ github.token }}
           action: upload
-          app_location: "./output"
+          app_location: ./output
           skip_app_build: true
+          deployment_environment: staging
 
-      - name: Close SWA Staging
-        if: ${{ github.event.action == 'close-staging' }}
+  close:
+    name: Close staging deployment
+    if: github.event.action == 'close-staging'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Close SWA staging
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_SMOKE_0628DF600 }}
+          repo_token: ${{ github.token }}
           action: close
-          deployment_environment: "staging"
-          pull_request_id: ${{ env.PR_NUMBER }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          deployment_environment: staging
