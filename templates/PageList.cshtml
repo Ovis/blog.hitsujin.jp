@@ -20,7 +20,7 @@
                 }
             </header>
             <div class="post-excerpt article-body">
-                @article.ExcerptHtml
+                @Raw(article.ExcerptHtmlContent.Value)
             </div>
             @if (!string.IsNullOrEmpty(article.RemainingHtml))
             {
