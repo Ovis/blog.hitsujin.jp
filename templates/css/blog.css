@@ -844,6 +844,11 @@ select {
 }
 
 /* oEmbed */
+.oembed-container {
+	display: block;
+	margin: 1rem 0;
+}
+
 .oembed-video {
 	position: relative;
 	width: 100%;
