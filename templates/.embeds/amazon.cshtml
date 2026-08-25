@@ -1,14 +1,14 @@
 @model BlogGenerator.MarkdigExtension.AmazonCardModel
-<aside class="amazon-card" aria-label="Amazon商品リンク">
+<span class="amazon-card" role="group" aria-label="Amazon商品リンク">
     @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
     {
         <a class="amazon-card-image-link" href="@Model.ProductUrl" target="_blank" rel="noopener noreferrer">
             <img class="amazon-card-image" src="@Model.ImageUrl" alt="" loading="lazy" />
         </a>
     }
-    <div class="amazon-card-content">
-        <p class="amazon-card-eyebrow">Amazon</p>
+    <span class="amazon-card-content">
+        <span class="amazon-card-eyebrow">Amazon</span>
         <a class="amazon-card-title" href="@Model.ProductUrl" target="_blank" rel="noopener noreferrer">@Model.Title</a>
         <a class="amazon-card-button" href="@Model.ProductUrl" target="_blank" rel="noopener noreferrer">Amazonで見る <span aria-hidden="true">&#8594;</span></a>
-    </div>
-</aside>
+    </span>
+</span>

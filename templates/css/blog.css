@@ -989,6 +989,7 @@ select {
 }
 
 .amazon-card-eyebrow {
+	display: block;
 	margin: 0 0 8px;
 	color: var(--color-accent);
 	font-size: 0.7rem;
