@@ -6,6 +6,12 @@ on:
       - production
 
   workflow_dispatch:
+    inputs:
+      use_prerelease:
+        description: 'BlogGenerator のプレリリース版を使用する'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -79,7 +85,12 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Install BlogGenerator
-        run: dotnet tool install --global eSheepDev.BlogGenerator
+        run: |
+          if [[ "${{ github.event_name == 'workflow_dispatch' && inputs.use_prerelease }}" == "true" ]]; then
+            dotnet tool install --global eSheepDev.BlogGenerator --prerelease
+          else
+            dotnet tool install --global eSheepDev.BlogGenerator
+          fi
 
       - name: Generate blog
         run: |
