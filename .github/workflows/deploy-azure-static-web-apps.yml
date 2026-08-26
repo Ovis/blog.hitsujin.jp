@@ -88,21 +88,22 @@ jobs:
             --output ./output \
             --theme ./templates \
             --oembed ./.oembed-cache/oembed.json \
+            --amazon-cache ./.oembed-cache/amazon.json \
             --config ./blogconfig.json
 
-      - name: Update oEmbed cache
+      - name: Update embed caches
         working-directory: ./.oembed-cache
         run: |
-          if [ -z "$(git status --porcelain -- oembed.json)" ]; then
-            echo "oEmbed cache is unchanged."
+          if [ -z "$(git status --porcelain -- oembed.json amazon.json)" ]; then
+            echo "Embed caches are unchanged."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add oembed.json
-          git commit -m "Update oEmbed cache"
+          git add oembed.json amazon.json
+          git commit -m "Update embed caches"
           git push
 
       - name: Deploy to production
