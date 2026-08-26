@@ -4,13 +4,9 @@
 @{
     var model = Model;
     var latestPosts = model.Articles.Take(6).ToArray();
-    var tags = model.Articles.SelectMany(x => x.Tags).Distinct().ToArray()
-        .Select(tag => new
-        {
-            Tag = tag,
-            Count = model.Articles.Count(x => x.Tags.Contains(tag))
-        })
+    var tags = model.TagCatalog.Entries
         .OrderByDescending(x => x.Count)
+        .ThenBy(x => x.DisplayName)
         .Take(10)
         .ToArray();
     var archives = model.Articles
@@ -58,7 +54,7 @@
         <ul class="sidebar-tags">
             @foreach (var tag in tags)
             {
-                <li><a href="@Model.GeneratePath($"/tags/{tag.Tag}")">@tag.Tag <span>@tag.Count</span></a></li>
+                <li><a href="@Model.GenerateTagPath(tag.DisplayName)">@tag.DisplayName <span>@tag.Count</span></a></li>
             }
         </ul>
     </section>

@@ -2,14 +2,9 @@
 @using RazorLight
 @inherits TemplatePage<PageModel>
 @{
-    var tags = Model.Articles.SelectMany(x => x.Tags).Distinct().ToArray()
-        .Select(tag => new
-        {
-            Tag = tag,
-            Count = Model.Articles.Count(x => x.Tags.Contains(tag))
-        })
+    var tags = Model.TagCatalog.Entries
         .OrderByDescending(x => x.Count)
-        .ThenBy(x => x.Tag)
+        .ThenBy(x => x.DisplayName)
         .ToArray();
 }
 
@@ -22,8 +17,8 @@
         @foreach (var tag in tags)
         {
             <li>
-                <a href="@Model.GeneratePath($"/tags/{tag.Tag}")">
-                    <span>@tag.Tag</span><small>@tag.Count</small>
+                <a href="@Model.GenerateTagPath(tag.DisplayName)">
+                    <span>@tag.DisplayName</span><small>@tag.Count</small>
                 </a>
             </li>
         }

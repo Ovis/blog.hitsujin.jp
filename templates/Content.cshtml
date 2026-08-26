@@ -13,13 +13,13 @@
             <h1>@article.Title</h1>
             <div class="article-meta">
                 <time datetime="@article.Published.ToString("o")">@article.Published.ToString("yyyy年M月d日")</time>
-                @if (article.Tags.Count > 0)
+                @if (Model.GetArticleTags(article).Count > 0)
                 {
                     <span class="meta-separator" aria-hidden="true">•</span>
                     <ul class="tag-list" aria-label="タグ">
-                        @foreach (var tag in article.Tags)
+                        @foreach (var tag in Model.GetArticleTags(article))
                         {
-                            <li><a href="@Model.GeneratePath($"/tags/{tag}")">@tag</a></li>
+                            <li><a href="@Model.GenerateTagPath(tag.DisplayName)">@tag.DisplayName</a></li>
                         }
                     </ul>
                 }
