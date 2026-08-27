@@ -1,0 +1,17 @@
+@using BlogGenerator.Models
+@using RazorLight
+@inherits TemplatePage<PageModel>
+@{
+    var article = Model.Articles.First();
+}
+
+<header class="article-header">
+    <p class="article-kicker">Page</p>
+    @if (!string.IsNullOrWhiteSpace(article.Title))
+    {
+        <h1>@article.Title</h1>
+    }
+</header>
+<div class="article-body">
+    @Raw(article.BodyHtml.Value)
+</div>
