@@ -97,7 +97,10 @@ jobs:
             --config ./blogconfig.json
 
       - name: Add static site files
-        run: cp -R ./static/. ./output/
+        run: |
+          if [ -d ./static ]; then
+            cp -R ./static/. ./output/
+          fi
 
       - name: Generate Pagefind search index
         run: npx --yes pagefind@1.5.2 --site ./output
