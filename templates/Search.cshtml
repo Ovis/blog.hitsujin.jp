@@ -1,0 +1,40 @@
+@using BlogGenerator.Models
+@using RazorLight
+@inherits TemplatePage<PageModel>
+
+<article class="article-page search-page">
+    @{ await IncludeAsync("_FixedPageContent.cshtml", Model); }
+    <div id="search"></div>
+</article>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const query = new URLSearchParams(window.location.search).get('q') || '';
+        new PagefindUI({
+            element: '#search',
+            showImages: false,
+            showSubResults: false,
+            showEmptyFilters: false,
+            ranking: {
+                metaWeights: {
+                    title: 5,
+                    date: 0
+                }
+            },
+            processResult: function (result) {
+                if (result.meta && result.meta.date) {
+                    result.excerpt = '<span class="search-result-date">' + result.meta.date + '</span><br>' + result.excerpt;
+                }
+                return result;
+            }
+        });
+
+        if (query) {
+            const input = document.querySelector('#search input[type="search"]');
+            if (input) {
+                input.value = query;
+                input.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        }
+    });
+</script>
