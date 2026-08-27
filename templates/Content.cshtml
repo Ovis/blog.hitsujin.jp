@@ -25,8 +25,14 @@
                 }
             </div>
         </header>
+        <div class="article-body" data-pagefind-body>
+            @Raw(article.BodyHtml.Value)
+        </div>
     }
-    <div class="article-body" data-pagefind-body>
-        @Raw(article.BodyHtml.Value)
-    </div>
+    else
+    {
+        <div class="article-body">
+            @Raw(article.BodyHtml.Value)
+        </div>
+    }
 </article>
