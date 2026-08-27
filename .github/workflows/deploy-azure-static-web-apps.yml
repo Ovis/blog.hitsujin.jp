@@ -102,6 +102,12 @@ jobs:
             --amazon-cache ./.oembed-cache/amazon.json \
             --config ./blogconfig.json
 
+      - name: Add static site files
+        run: cp -R ./static/. ./output/
+
+      - name: Generate Pagefind search index
+        run: npx --yes pagefind@1.5.2 --site ./output
+
       - name: Update embed caches
         working-directory: ./.oembed-cache
         run: |

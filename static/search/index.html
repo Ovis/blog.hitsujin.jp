@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>検索 | Pandora Pocket</title>
+    <meta name="description" content="Pandora Pocketの記事を全文検索します。">
+    <meta name="theme-color" content="#f7f4ee">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+    <style>
+        .search-shell {
+            width: min(1180px, calc(100% - 48px));
+            margin: 64px auto 96px;
+        }
+        .search-page {
+            padding: clamp(32px, 6vw, 64px);
+            border: 1px solid rgb(222 219 211 / 80%);
+            border-radius: 18px;
+            background: var(--color-surface);
+            box-shadow: var(--shadow-soft);
+        }
+        #search {
+            --pagefind-ui-primary: var(--color-accent-dark);
+            --pagefind-ui-text: var(--color-text);
+            --pagefind-ui-background: var(--color-surface);
+            --pagefind-ui-border: var(--color-line);
+            --pagefind-ui-font: var(--font-sans);
+        }
+        .search-result-date {
+            color: var(--color-muted);
+            font-size: 0.82rem;
+        }
+    </style>
+    <script src="/pagefind/pagefind-ui.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <div class="site-identity">
+                <a class="site-brand" href="/">Pandora Pocket</a>
+                <p class="site-description">IT系と日常系の備忘録。三日坊主。</p>
+            </div>
+            <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+                <span class="nav-toggle-label">Menu</span>
+                <span class="nav-toggle-lines" aria-hidden="true"><span></span><span></span></span>
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/tags">Tags</a>
+                <a href="/search">Search</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="search-shell">
+        <section class="search-page">
+            <header class="section-header">
+                <p class="article-kicker">Search</p>
+                <h1>記事を検索</h1>
+            </header>
+            <div id="search"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <p>© 2026 Pandora Pocket</p>
+            <div class="footer-feeds">
+                <a href="/feed.rss">RSS</a>
+                <a href="/feed.atom">Atom</a>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="/js/blog.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            new PagefindUI({
+                element: '#search',
+                showImages: false,
+                showSubResults: false,
+                ranking: {
+                    metaWeights: {
+                        title: 5,
+                        date: 0
+                    }
+                },
+                processResult: function (result) {
+                    if (result.meta && result.meta.date) {
+                        result.excerpt = '<span class="search-result-date">' + result.meta.date + '</span><br>' + result.excerpt;
+                    }
+                    return result;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

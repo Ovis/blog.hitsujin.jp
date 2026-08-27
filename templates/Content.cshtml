@@ -10,9 +10,9 @@
     {
         <header class="article-header">
             <p class="article-kicker">Article</p>
-            <h1>@article.Title</h1>
+            <h1 data-pagefind-body data-pagefind-meta="title" data-pagefind-weight="10">@article.Title</h1>
             <div class="article-meta">
-                <time datetime="@article.Published.ToString("o")">@article.Published.ToString("yyyy年M月d日")</time>
+                <time datetime="@article.Published.ToString("o")" data-pagefind-meta="date:@article.Published.ToString("yyyy年M月d日")">@article.Published.ToString("yyyy年M月d日")</time>
                 @if (Model.GetArticleTags(article).Count > 0)
                 {
                     <span class="meta-separator" aria-hidden="true">•</span>
@@ -25,8 +25,14 @@
                 }
             </div>
         </header>
+        <div class="article-body" data-pagefind-body>
+            @Raw(article.BodyHtml.Value)
+        </div>
     }
-    <div class="article-body">
-        @Raw(article.BodyHtml.Value)
-    </div>
+    else
+    {
+        <div class="article-body">
+            @Raw(article.BodyHtml.Value)
+        </div>
+    }
 </article>
