@@ -50,6 +50,14 @@
     </section>
 
     <section class="sidebar-section">
+        <h2 class="sidebar-heading">記事を検索</h2>
+        <form class="sidebar-search" action="@Model.GeneratePath("search.html")" method="get" role="search">
+            <label class="visually-hidden" for="sidebar-search-query">検索キーワード</label>
+            <input id="sidebar-search-query" type="search" name="q" placeholder="キーワードを入力" required>
+        </form>
+    </section>
+
+    <section class="sidebar-section">
         <h2 class="sidebar-heading">タグ</h2>
         <ul class="sidebar-tags">
             @foreach (var tag in tags)
