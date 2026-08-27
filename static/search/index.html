@@ -29,6 +29,10 @@
             --pagefind-ui-border: var(--color-line);
             --pagefind-ui-font: var(--font-sans);
         }
+        .search-result-date {
+            color: var(--color-muted);
+            font-size: 0.82rem;
+        }
     </style>
     <script src="/pagefind/pagefind-ui.js"></script>
 </head>
@@ -79,6 +83,12 @@
                 element: '#search',
                 showImages: false,
                 showSubResults: false,
+                ranking: {
+                    metaWeights: {
+                        title: 5,
+                        date: 0
+                    }
+                },
                 processResult: function (result) {
                     if (result.meta && result.meta.date) {
                         result.excerpt = '<span class="search-result-date">' + result.meta.date + '</span><br>' + result.excerpt;
