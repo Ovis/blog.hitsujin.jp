@@ -54,7 +54,7 @@
                 <a href="@Model.GeneratePath("/")">Home</a>
                 <a href="@Model.GeneratePath("about")">About</a>
                 <a href="@Model.GeneratePath("tags")">Tags</a>
-                <a href="@Model.GeneratePath("search")">Search</a>
+                <a href="@Model.GeneratePath("search.html")">Search</a>
             </nav>
         </div>
     </header>
@@ -64,7 +64,7 @@
             @switch (model.PageType)
             {
                 case PageType.Article:
-                    await IncludeAsync("Content.cshtml", model);
+                    await IncludeAsync(model.ContentTemplate ?? "Content.cshtml", model);
                     break;
                 case PageType.PageList:
                     await IncludeAsync("PageList.cshtml", model);
