@@ -1,0 +1,7 @@
+@using BlogGenerator.Models
+@using RazorLight
+@inherits TemplatePage<PageModel>
+
+<article class="article-page">
+    @{ await IncludeAsync("_FixedPageContent.cshtml", Model); }
+</article>

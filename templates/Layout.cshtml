@@ -5,6 +5,7 @@
 @{
     var model = Model;
     var isArticle = model.PageType == PageType.Article;
+    var isSearchPage = isArticle && string.Equals(model.ContentTemplate, "Search.cshtml", StringComparison.OrdinalIgnoreCase);
     var pageTitle = isArticle
         ? $"{model.Articles.First().Title} | {model.SiteOption.SiteName}"
         : model.SiteOption.SiteName;
@@ -37,6 +38,12 @@
     <link rel="icon" href="@Model.GeneratePath("favicon.ico")" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism-tomorrow.min.css">
     <link rel="stylesheet" href="@Model.GeneratePath("css/blog.css")">
+    <link rel="stylesheet" href="@Model.GeneratePath("css/search.css")">
+    @if (isSearchPage)
+    {
+        <link rel="stylesheet" href="@Model.GeneratePath("pagefind/pagefind-ui.css")">
+        <script src="@Model.GeneratePath("pagefind/pagefind-ui.js")"></script>
+    }
     <meta name="google-adsense-account" content="ca-pub-3466091512464589">
 </head>
 <body>
@@ -54,7 +61,7 @@
                 <a href="@Model.GeneratePath("/")">Home</a>
                 <a href="@Model.GeneratePath("about")">About</a>
                 <a href="@Model.GeneratePath("tags")">Tags</a>
-                <a href="@Model.GeneratePath("search")">Search</a>
+                <a href="@Model.GeneratePath("search.html")">Search</a>
             </nav>
         </div>
     </header>
@@ -64,7 +71,7 @@
             @switch (model.PageType)
             {
                 case PageType.Article:
-                    await IncludeAsync("Content.cshtml", model);
+                    await IncludeAsync(model.ContentTemplate ?? "Content.cshtml", model);
                     break;
                 case PageType.PageList:
                     await IncludeAsync("PageList.cshtml", model);
