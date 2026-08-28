@@ -1,0 +1,194 @@
+/* OGP fallbackカードはテーマ側テンプレートから出力されるため、サイトの配色と余白に合わせて見た目を定義する */
+.ogp-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 184px;
+	width: 100%;
+	max-width: 680px;
+	min-height: 148px;
+	margin: 2em 0;
+	overflow: hidden;
+	border: 1px solid var(--color-line);
+	border-radius: 14px;
+	background: var(--color-surface);
+	box-shadow: 0 10px 28px rgb(65 60 48 / 7%);
+	color: var(--color-text);
+	text-decoration: none;
+	transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.ogp-card:hover,
+.ogp-card:focus-visible {
+	border-color: rgb(31 111 120 / 55%);
+	box-shadow: 0 14px 34px rgb(65 60 48 / 11%);
+	color: var(--color-text);
+	text-decoration: none;
+	transform: translateY(-1px);
+}
+
+.ogp-card:focus-visible {
+	outline: 3px solid rgb(31 111 120 / 22%);
+	outline-offset: 3px;
+}
+
+.ogp-card-content {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 22px;
+}
+
+.ogp-card-site {
+	display: flex;
+	align-items: center;
+	min-width: 0;
+	margin-bottom: 8px;
+	gap: 8px;
+	color: var(--color-muted);
+	font-size: 0.72rem;
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.ogp-card-favicon {
+	flex: 0 0 18px;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	border: 0;
+	border-radius: 4px;
+	object-fit: contain;
+}
+
+.ogp-card-site-name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ogp-card-title {
+	display: -webkit-box;
+	overflow: hidden;
+	color: var(--color-text);
+	font-family: var(--font-serif);
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	line-height: 1.55;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.ogp-card-description {
+	display: -webkit-box;
+	overflow: hidden;
+	margin-top: 7px;
+	color: #565c57;
+	font-size: 0.76rem;
+	line-height: 1.55;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.ogp-card-url {
+	overflow: hidden;
+	margin-top: 10px;
+	color: var(--color-muted);
+	font-size: 0.68rem;
+	line-height: 1.35;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ogp-card-image-wrapper {
+	display: block;
+	min-width: 0;
+	background: #eef2ed;
+}
+
+.ogp-card-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 148px;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	object-fit: cover;
+}
+
+/* 記事本文の汎用画像スタイルよりカード専用スタイルを優先する */
+.article-body .ogp-card-favicon {
+	margin: 0;
+	border-radius: 4px;
+}
+
+.article-body .ogp-card-image {
+	margin: 0;
+	border-radius: 0;
+}
+
+@media (max-width: 980px) {
+	.ogp-card {
+		max-width: none;
+	}
+}
+
+@media (max-width: 680px) {
+	.ogp-card {
+		grid-template-columns: minmax(0, 1fr) 112px;
+		min-height: 126px;
+	}
+
+	.ogp-card-content {
+		padding: 16px 17px;
+	}
+
+	.ogp-card-site {
+		margin-bottom: 6px;
+	}
+
+	.ogp-card-title {
+		font-size: 0.92rem;
+		line-height: 1.5;
+	}
+
+	.ogp-card-description {
+		display: none;
+	}
+
+	.ogp-card-url {
+		margin-top: 8px;
+	}
+
+	.ogp-card-image {
+		min-height: 126px;
+	}
+}
+
+@media (max-width: 460px) {
+	.ogp-card {
+		grid-template-columns: minmax(0, 1fr) 92px;
+		min-height: 116px;
+	}
+
+	.ogp-card-content {
+		padding: 14px;
+	}
+
+	.ogp-card-site {
+		font-size: 0.68rem;
+	}
+
+	.ogp-card-title {
+		font-size: 0.88rem;
+	}
+
+	.ogp-card-url {
+		display: none;
+	}
+
+	.ogp-card-image {
+		min-height: 116px;
+	}
+}
