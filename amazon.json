@@ -1676,19 +1676,6 @@
     "FailureKind": 1,
     "ErrorSummary": "NotFound"
   },
-  "B0070R4M9G": {
-    "Asin": "B0070R4M9G",
-    "Marketplace": "amazon.co.jp",
-    "Title": null,
-    "ImageUrl": null,
-    "Status": 1,
-    "FreshUntil": null,
-    "NextRetryAt": "2026-09-25T07:54:46.2360382+00:00",
-    "LastSuccessAt": null,
-    "LastFailureAt": "2026-08-26T07:54:46.2360382+00:00",
-    "FailureKind": 1,
-    "ErrorSummary": "NotFound"
-  },
   "B001P9HNOQ": {
     "Asin": "B001P9HNOQ",
     "Marketplace": "amazon.co.jp",
@@ -1701,5 +1688,18 @@
     "LastFailureAt": null,
     "FailureKind": null,
     "ErrorSummary": ""
+  },
+  "B0070R4M9G": {
+    "Asin": "B0070R4M9G",
+    "Marketplace": "amazon.co.jp",
+    "Title": null,
+    "ImageUrl": null,
+    "Status": 1,
+    "FreshUntil": null,
+    "NextRetryAt": "2026-09-25T07:54:46.2360382+00:00",
+    "LastSuccessAt": null,
+    "LastFailureAt": "2026-08-26T07:54:46.2360382+00:00",
+    "FailureKind": 1,
+    "ErrorSummary": "NotFound"
   }
 }
