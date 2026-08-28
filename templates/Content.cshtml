@@ -12,7 +12,7 @@
             <p class="article-kicker">Article</p>
             <h1 data-pagefind-body data-pagefind-meta="title" data-pagefind-weight="10">@article.Title</h1>
             <div class="article-meta">
-                <time datetime="@article.Published.ToString("o")" data-pagefind-meta="date:@article.Published.ToString("yyyy年M月d日")">@article.Published.ToString("yyyy年M月d日")</time>
+                <time datetime="@article.Published!.Value.ToString("o")" data-pagefind-meta="date:@article.Published.Value.ToString("yyyy年M月d日")">@article.Published.Value.ToString("yyyy年M月d日")</time>
                 @if (Model.GetArticleTags(article).Count > 0)
                 {
                     <span class="meta-separator" aria-hidden="true">•</span>

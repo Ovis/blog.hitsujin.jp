@@ -10,7 +10,7 @@
         .Take(10)
         .ToArray();
     var archives = model.Articles
-        .GroupBy(x => new { x.Published.Year, x.Published.Month })
+        .GroupBy(x => new { x.Published!.Value.Year, x.Published.Value.Month })
         .Select(group => new
         {
             group.Key.Year,
@@ -43,7 +43,7 @@
             {
                 <li>
                     <a href="@Model.GeneratePath(post.RootRelativePath)">@post.Title</a>
-                    <time datetime="@post.Published.ToString("o")">@post.Published.ToString("yyyy.MM.dd")</time>
+                    <time datetime="@post.Published!.Value.ToString("o")">@post.Published.Value.ToString("yyyy.MM.dd")</time>
                 </li>
             }
         </ol>

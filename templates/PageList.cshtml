@@ -7,7 +7,7 @@
     {
         <article class="post-preview">
             <header>
-                <time class="post-date" datetime="@article.Published.ToString("o")">@article.Published.ToString("yyyy年M月d日")</time>
+                <time class="post-date" datetime="@article.Published!.Value.ToString("o")">@article.Published.Value.ToString("yyyy年M月d日")</time>
                 <h2><a href="@Model.GeneratePath(article.RootRelativePath)">@article.Title</a></h2>
                 @if (Model.GetArticleTags(article).Count > 0)
                 {
