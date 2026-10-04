@@ -7152,17 +7152,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://twitter.com/hitsuji_no_hito/status/1592366726926434304": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003Een\u3072\u304B\u308A \u30D5\u30EC\u30C3\u30C4\u5149\u30AF\u30ED\u30B9 \u30D5\u30A1\u30DF\u30EA\u30FC\u30BF\u30A4\u30D7\u306B\u5207\u308A\u66FF\u3048\u305F\u7D50\u679C \u003Ca href=\u0022https://t.co/pGcK6gFGRj\u0022\u003Epic.twitter.com/pGcK6gFGRj\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1592366726926434304?ref_src=twsrc%5Etfw\u0022\u003ENovember 15, 2022\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:56.0260027+00:00",
-      "FreshUntil": "2027-02-24T16:19:56.0260027+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "http://www.atmarkit.co.jp/ait/articles/1306/17/news054.html": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7182,12 +7171,12 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/hitsuji_no_hito/status/975279798279839744": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u8A95\u751F\u65E5\u30D7\u30EC\u30BC\u30F3\u30C8\u306B\u3053\u308C\u3092\u8D08\u3063\u3066\u304F\u3060\u3055\u3063\u305F\u65B9\u3069\u306A\u305F\u3067\u3057\u3087\u3046\u3002 \u003Ca href=\u0022https://t.co/eTJMs2btti\u0022\u003Epic.twitter.com/eTJMs2btti\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/975279798279839744?ref_src=twsrc%5Etfw\u0022\u003EMarch 18, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+    "https://twitter.com/hitsuji_no_hito/status/1592366726926434304": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003Een\u3072\u304B\u308A \u30D5\u30EC\u30C3\u30C4\u5149\u30AF\u30ED\u30B9 \u30D5\u30A1\u30DF\u30EA\u30FC\u30BF\u30A4\u30D7\u306B\u5207\u308A\u66FF\u3048\u305F\u7D50\u679C \u003Ca href=\u0022https://t.co/pGcK6gFGRj\u0022\u003Epic.twitter.com/pGcK6gFGRj\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1592366726926434304?ref_src=twsrc%5Etfw\u0022\u003ENovember 15, 2022\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:23:40.2511694+00:00",
-      "FreshUntil": "2027-02-24T16:23:40.2511694+00:00",
+      "LastSuccessAt": "2026-08-28T16:19:56.0260027+00:00",
+      "FreshUntil": "2027-02-24T16:19:56.0260027+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7204,6 +7193,17 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://x.com/hitsuji_no_hito/status/975279798279839744": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u8A95\u751F\u65E5\u30D7\u30EC\u30BC\u30F3\u30C8\u306B\u3053\u308C\u3092\u8D08\u3063\u3066\u304F\u3060\u3055\u3063\u305F\u65B9\u3069\u306A\u305F\u3067\u3057\u3087\u3046\u3002 \u003Ca href=\u0022https://t.co/eTJMs2btti\u0022\u003Epic.twitter.com/eTJMs2btti\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/975279798279839744?ref_src=twsrc%5Etfw\u0022\u003EMarch 18, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:23:40.2511694+00:00",
+      "FreshUntil": "2027-02-24T16:23:40.2511694+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://gist.github.com/Ovis/6220760b7fe84b746e721ecdcc4695d8": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cscript src=\u0022https://gist.github.com/Ovis/6220760b7fe84b746e721ecdcc4695d8.js\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
       "OgpCard": null,
@@ -7215,14 +7215,14 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html\u003C/a\u003E\u003C/div\u003E",
+    "https://www.gigafree.net/system/SystemBackup/usbimagetool.html": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.gigafree.net/system/SystemBackup/usbimagetool.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.gigafree.net/system/SystemBackup/usbimagetool.html\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
       "Status": 1,
       "LastSuccessAt": null,
       "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:25.2710488+00:00",
-      "NextRetryAt": "2026-10-04T14:07:25.2710488+00:00",
+      "LastFailureAt": "2026-10-04T08:07:26.6717287+00:00",
+      "NextRetryAt": "2026-10-04T14:07:26.6717287+00:00",
       "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
@@ -7245,14 +7245,14 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.gigafree.net/system/SystemBackup/usbimagetool.html": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.gigafree.net/system/SystemBackup/usbimagetool.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.gigafree.net/system/SystemBackup/usbimagetool.html\u003C/a\u003E\u003C/div\u003E",
+    "https://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.mof.go.jp/currency/coin/commemorative_coin/30th_emperors_enthronement/20190118toriatsukai.html\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
       "Status": 1,
       "LastSuccessAt": null,
       "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:26.6717287+00:00",
-      "NextRetryAt": "2026-10-04T14:07:26.6717287+00:00",
+      "LastFailureAt": "2026-10-04T08:07:25.2710488+00:00",
+      "NextRetryAt": "2026-10-04T14:07:25.2710488+00:00",
       "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
@@ -7349,17 +7349,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "http://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 1,
-      "LastSuccessAt": null,
-      "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:28.8016056+00:00",
-      "NextRetryAt": "2026-10-04T14:07:28.8016056+00:00",
-      "ErrorSummary": "Failed to fetch metadata",
-      "IsLegacyOgpHtml": false
-    },
     "http://itpro.nikkeibp.co.jp/article/NEWS/20140403/548167/": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7377,6 +7366,17 @@
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "http://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www016.upp.so-net.ne.jp/louvre/tips/engineering/software/oracle/procjoin.html\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 1,
+      "LastSuccessAt": null,
+      "FreshUntil": null,
+      "LastFailureAt": "2026-10-04T08:07:28.8016056+00:00",
+      "NextRetryAt": "2026-10-04T14:07:28.8016056+00:00",
+      "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
     "https://github.com/Ovis/SwitchBot.StreamDeckPlugin/releases": {
@@ -7398,23 +7398,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://twitter.com/hitsuji_no_hito/status/1564625844471037957": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003ENURO\u304B\u3089\u5225\u306E\u56DE\u7DDA\u696D\u8005\u306B\u5207\u308A\u66FF\u3048\u3088\u3046\u3068\u601D\u3063\u3066\u7533\u3057\u8FBC\u3093\u3060\u306F\u826F\u3044\u3051\u3069\u3001\u5F15\u304D\u8FBC\u3080\u74B0\u5883\u306E\u554F\u984C\u3067\u958B\u901A\u6642\u671F\u304C12\u6708\u9803\u306B\u306A\u308B\u3068\u8A00\u308F\u308C\u3066\u982D\u62B1\u3048\u3066\u3044\u308B\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1564625844471037957?ref_src=twsrc%5Etfw\u0022\u003EAugust 30, 2022\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:52.7971784+00:00",
-      "FreshUntil": "2027-02-24T16:19:52.7971784+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://x.com/hitsuji_no_hito/status/1082158075778281472": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3053\u306E\u7D19\u306B\u66F8\u304F\u3060\u3051\u3067\u624B\u7D9A\u304D\u5B8C\u4E86 \u003Ca href=\u0022https://t.co/R41mLD8xkf\u0022\u003Epic.twitter.com/R41mLD8xkf\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1082158075778281472?ref_src=twsrc%5Etfw\u0022\u003EJanuary 7, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:18.7258953+00:00",
       "FreshUntil": "2027-02-24T16:19:18.7258953+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://twitter.com/hitsuji_no_hito/status/1564625844471037957": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003ENURO\u304B\u3089\u5225\u306E\u56DE\u7DDA\u696D\u8005\u306B\u5207\u308A\u66FF\u3048\u3088\u3046\u3068\u601D\u3063\u3066\u7533\u3057\u8FBC\u3093\u3060\u306F\u826F\u3044\u3051\u3069\u3001\u5F15\u304D\u8FBC\u3080\u74B0\u5883\u306E\u554F\u984C\u3067\u958B\u901A\u6642\u671F\u304C12\u6708\u9803\u306B\u306A\u308B\u3068\u8A00\u308F\u308C\u3066\u982D\u62B1\u3048\u3066\u3044\u308B\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1564625844471037957?ref_src=twsrc%5Etfw\u0022\u003EAugust 30, 2022\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:52.7971784+00:00",
+      "FreshUntil": "2027-02-24T16:19:52.7971784+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7488,6 +7488,17 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://blog.ch3cooh.jp/entry/2019/07/04/210000": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Fblog.ch3cooh.jp%2Fentry%2F2019%2F07%2F04%2F210000\u0022 title=\u0022\u3055\u304F\u3055\u3093\u3001\u904B\u8EE2\u514D\u8A31\u8A3C\u3092\u5931\u52B9\u3055\u305B\u3066\u3057\u307E\u3046 - \u9162\u308D\u3050\uFF01\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:15.7551348+00:00",
+      "FreshUntil": "2027-02-24T16:19:15.7551348+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "http://www.forest.impress.co.jp/docs/news/20150318_693380.html": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7507,12 +7518,12 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://blog.ch3cooh.jp/entry/2019/07/04/210000": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Fblog.ch3cooh.jp%2Fentry%2F2019%2F07%2F04%2F210000\u0022 title=\u0022\u3055\u304F\u3055\u3093\u3001\u904B\u8EE2\u514D\u8A31\u8A3C\u3092\u5931\u52B9\u3055\u305B\u3066\u3057\u307E\u3046 - \u9162\u308D\u3050\uFF01\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
+    "https://x.com/od_10z/status/594422654590799872": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E[\u30D6\u30ED\u30B0\u66F4\u65B0]:\u304A\u3067\u30B3\u30F3\uFF08\u4EEE\u540D\uFF09\u4E88\u544A \u003Ca href=\u0022http://t.co/WxiChegjsB\u0022\u003Ehttp://t.co/WxiChegjsB\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/wpjp?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#wpjp\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/wpdev_jp?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#wpdev_jp\u003C/a\u003E \u53D6\u308A\u6025\u304E\u4E88\u544A\u3060\u3051\u2026\u2026\u3002WP\u65E5\u672C\u518D\u4E0A\u9678\u3092\u8A18\u5FF5\u3057\u3066\u3001\u7A1A\u62D9\u306A\u304C\u3089\u3001\u30A2\u30D7\u30EA\u30B3\u30F3\u30C6\u30B9\u30C8\u3092\u4E3B\u50AC\u3055\u305B\u3066\u9802\u3053\u3046\u3068\u601D\u3044\u307E\u3059\uFF01\u003C/p\u003E\u0026mdash; \u6C38\u4E45\u306E\u8A3C\u4EBA\u3001\uFF2F\uFF24\u2212\uFF11\uFF10\uFF3A (@od_10z) \u003Ca href=\u0022https://x.com/od_10z/status/594422654590799872?ref_src=twsrc%5Etfw\u0022\u003EMay 2, 2015\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:15.7551348+00:00",
-      "FreshUntil": "2027-02-24T16:19:15.7551348+00:00",
+      "LastSuccessAt": "2026-08-28T16:19:13.2715276+00:00",
+      "FreshUntil": "2027-02-24T16:19:13.2715276+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7532,17 +7543,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:23.9204081+00:00",
       "FreshUntil": "2027-02-24T17:39:23.9204081+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://x.com/od_10z/status/594422654590799872": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E[\u30D6\u30ED\u30B0\u66F4\u65B0]:\u304A\u3067\u30B3\u30F3\uFF08\u4EEE\u540D\uFF09\u4E88\u544A \u003Ca href=\u0022http://t.co/WxiChegjsB\u0022\u003Ehttp://t.co/WxiChegjsB\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/wpjp?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#wpjp\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/wpdev_jp?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#wpdev_jp\u003C/a\u003E \u53D6\u308A\u6025\u304E\u4E88\u544A\u3060\u3051\u2026\u2026\u3002WP\u65E5\u672C\u518D\u4E0A\u9678\u3092\u8A18\u5FF5\u3057\u3066\u3001\u7A1A\u62D9\u306A\u304C\u3089\u3001\u30A2\u30D7\u30EA\u30B3\u30F3\u30C6\u30B9\u30C8\u3092\u4E3B\u50AC\u3055\u305B\u3066\u9802\u3053\u3046\u3068\u601D\u3044\u307E\u3059\uFF01\u003C/p\u003E\u0026mdash; \u6C38\u4E45\u306E\u8A3C\u4EBA\u3001\uFF2F\uFF24\u2212\uFF11\uFF10\uFF3A (@od_10z) \u003Ca href=\u0022https://x.com/od_10z/status/594422654590799872?ref_src=twsrc%5Etfw\u0022\u003EMay 2, 2015\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:13.2715276+00:00",
-      "FreshUntil": "2027-02-24T16:19:13.2715276+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7657,17 +7657,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://knkomko.hatenablog.com/entry/2019/10/02/001032": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Fknkomko.hatenablog.com%2Fentry%2F2019%2F10%2F02%2F001032\u0022 title=\u0022Postman \u306E Could not get any response \u3092\u89E3\u6C7A\u3059\u308B\u65B9\u6CD5 (.Net Core API) - Grow up\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:13.5070898+00:00",
-      "FreshUntil": "2027-02-24T16:19:13.5070898+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://satsumahomeserver.com/blog/255487": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7687,31 +7676,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://knkomko.hatenablog.com/entry/2019/10/02/001032": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Fknkomko.hatenablog.com%2Fentry%2F2019%2F10%2F02%2F001032\u0022 title=\u0022Postman \u306E Could not get any response \u3092\u89E3\u6C7A\u3059\u308B\u65B9\u6CD5 (.Net Core API) - Grow up\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:13.5070898+00:00",
+      "FreshUntil": "2027-02-24T16:19:13.5070898+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://www.amazon.co.jp/dp/B01N5QLLT3/": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B01N5QLLT3/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B01N5QLLT3/\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-10-04T08:07:45.9277152+00:00",
       "FreshUntil": "2027-04-02T08:07:45.9277152+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "http://hololens.connpass.com/event/31579/": {
-      "HtmlContent": "",
-      "OgpCard": {
-        "Url": "https://hololens.connpass.com/event/31579/",
-        "DisplayUrl": "hololens.connpass.com/event/31579/",
-        "Title": "HoloLens\u304A\u3055\u308F\u308A\u4F1A in \u540D\u53E4\u5C4B (2016/05/28 14:00\u301C)",
-        "Description": "# Maker Lab Nagoya\u3055\u3093\u3067HoloLens\u306E\u304A\u89E6\u308A\u4F1A\u3092\u958B\u50AC\u3057\u307E\u3059\u3002  \u306A\u306B\u3076\u3093\u7E4A\u7D30\u306A\u30D6\u30C4\u3067\u3059\u306E\u3067\u3001\u53C2\u52A0\u5E0C\u671B\u8005\u304C\u591A\u3044\u5834\u5408\u306F\u62BD\u9078\u3068\u306A\u308B\u70B9\u3068\u3001\u6CE8\u610F\u6DF1\u304F\u89E6\u3063\u3066\u3044\u305F\u3060\u304D\u305F\u3044\u306E\u3067\u3001\u304A\u3055\u308F\u308A\u306F\u6709\u511F\u306B\u306A\u308B\u70B9\u3092\u4E88\u3081\u3054\u4E86\u627F\u304F\u3060\u3055\u3044\uFF01 m( )m  \u307E\u305F\u3001\u5404\u7A2ESNS\u306B\u767B\u9332\u3057\u3066\u304A\u3089\u305A\u904E\u53BB\u3069\u306E\u3088\u3046\u306A\u52C9\u5F37\u4F1A\u306B\u3082\u53C2\u52A0\u3055\u308C\u3066\u3044\u306A\u3044\u65B9\u306F\u53C2\u52A0\u3092\u304A\u65AD\u308A\u3059\u308B\u5834\u5408\u304C\u3042\u308A\u307E\u3059\u3002  # HoloLens\u30A2\u30D7\u30EA\u3092\u3059\u3067\u306B\u958B\u767A\u4E2D\u3067\u30C7\u30D7\u30ED\u30A4\u3067\u304D\u308B\u72B6\u614B\u306E\u65B9\u306F\u30B3\u30E1\u30F3\u30C8\u306B\u3054\u8A18\u8F09\u304F\u3060\u3055\u3044\u3002  \u3044\u3044\u3053\u3068\u3042\u308B\u304B\u3082\uFF1F  # \u5F53\u65E5\u7121\u65AD\u30AD\u30E3\u30F3\u30BB\u30EB\u3001\u30C0\u30E1\u7D76\u5BFE  \u4ED6\u306E\u53C2\u52A0\u5E0C\u671B\u8005\u306B\u5E2D\u3092\u8B72\u308A\u305F\u3044\u306E\u3067\u3001\u53EF\u80FD\u3067\u3042\u308C\u3070\u524D\u65E5\u307E\u3067\u306E\u30AD\u30E3\u30F3\u30BB\u30EB\u3092\u304A\u9858\u3044\u3057\u307E\u3059\u3002 ...",
-        "SiteName": "connpass",
-        "ImageUrl": "https://media.connpass.com/thumbs/59/8c/598c7ac939f261abe40bd5f6d38f6a6a.png",
-        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fhololens.connpass.com%2Fevent%2F31579%2F\u0026sz=32"
-      },
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T17:39:20.7490288+00:00",
-      "FreshUntil": "2027-02-24T17:39:20.7490288+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7731,6 +7712,25 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:25.905949+00:00",
       "FreshUntil": "2027-02-24T17:39:25.905949+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "http://hololens.connpass.com/event/31579/": {
+      "HtmlContent": "",
+      "OgpCard": {
+        "Url": "https://hololens.connpass.com/event/31579/",
+        "DisplayUrl": "hololens.connpass.com/event/31579/",
+        "Title": "HoloLens\u304A\u3055\u308F\u308A\u4F1A in \u540D\u53E4\u5C4B (2016/05/28 14:00\u301C)",
+        "Description": "# Maker Lab Nagoya\u3055\u3093\u3067HoloLens\u306E\u304A\u89E6\u308A\u4F1A\u3092\u958B\u50AC\u3057\u307E\u3059\u3002  \u306A\u306B\u3076\u3093\u7E4A\u7D30\u306A\u30D6\u30C4\u3067\u3059\u306E\u3067\u3001\u53C2\u52A0\u5E0C\u671B\u8005\u304C\u591A\u3044\u5834\u5408\u306F\u62BD\u9078\u3068\u306A\u308B\u70B9\u3068\u3001\u6CE8\u610F\u6DF1\u304F\u89E6\u3063\u3066\u3044\u305F\u3060\u304D\u305F\u3044\u306E\u3067\u3001\u304A\u3055\u308F\u308A\u306F\u6709\u511F\u306B\u306A\u308B\u70B9\u3092\u4E88\u3081\u3054\u4E86\u627F\u304F\u3060\u3055\u3044\uFF01 m( )m  \u307E\u305F\u3001\u5404\u7A2ESNS\u306B\u767B\u9332\u3057\u3066\u304A\u3089\u305A\u904E\u53BB\u3069\u306E\u3088\u3046\u306A\u52C9\u5F37\u4F1A\u306B\u3082\u53C2\u52A0\u3055\u308C\u3066\u3044\u306A\u3044\u65B9\u306F\u53C2\u52A0\u3092\u304A\u65AD\u308A\u3059\u308B\u5834\u5408\u304C\u3042\u308A\u307E\u3059\u3002  # HoloLens\u30A2\u30D7\u30EA\u3092\u3059\u3067\u306B\u958B\u767A\u4E2D\u3067\u30C7\u30D7\u30ED\u30A4\u3067\u304D\u308B\u72B6\u614B\u306E\u65B9\u306F\u30B3\u30E1\u30F3\u30C8\u306B\u3054\u8A18\u8F09\u304F\u3060\u3055\u3044\u3002  \u3044\u3044\u3053\u3068\u3042\u308B\u304B\u3082\uFF1F  # \u5F53\u65E5\u7121\u65AD\u30AD\u30E3\u30F3\u30BB\u30EB\u3001\u30C0\u30E1\u7D76\u5BFE  \u4ED6\u306E\u53C2\u52A0\u5E0C\u671B\u8005\u306B\u5E2D\u3092\u8B72\u308A\u305F\u3044\u306E\u3067\u3001\u53EF\u80FD\u3067\u3042\u308C\u3070\u524D\u65E5\u307E\u3067\u306E\u30AD\u30E3\u30F3\u30BB\u30EB\u3092\u304A\u9858\u3044\u3057\u307E\u3059\u3002 ...",
+        "SiteName": "connpass",
+        "ImageUrl": "https://media.connpass.com/thumbs/59/8c/598c7ac939f261abe40bd5f6d38f6a6a.png",
+        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fhololens.connpass.com%2Fevent%2F31579%2F\u0026sz=32"
+      },
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T17:39:20.7490288+00:00",
+      "FreshUntil": "2027-02-24T17:39:20.7490288+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7758,6 +7758,17 @@
       "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
+    "https://x.com/kurosawa0626/status/517655415874539520": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u50D5\u4ECA\u81EA\u7531\u4EBA\u306A\u306E\u3067WP\u304C\u51FA\u308B\u306A\u3089\u30B1\u30FC\u30BF\u30A4\u8CA9\u58F2\u54E1\u306B\u306A\u3063\u3066\u3082\u826F\u3044\u30EC\u30D9\u30EB\u3067WP\u306F\u597D\u304D\u3088\uFF1F\u003C/p\u003E\u0026mdash; \uD83E\uDD50\u9ED2\u6FA4 (@kurosawa0626) \u003Ca href=\u0022https://x.com/kurosawa0626/status/517655415874539520?ref_src=twsrc%5Etfw\u0022\u003EOctober 2, 2014\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:16.1464656+00:00",
+      "FreshUntil": "2027-02-24T16:19:16.1464656+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "http://www.speedtest.net/result/7108931945": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7772,17 +7783,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-09-30T14:01:03.9522609+00:00",
       "FreshUntil": "2027-03-29T14:01:03.9522609+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://x.com/kurosawa0626/status/517655415874539520": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u50D5\u4ECA\u81EA\u7531\u4EBA\u306A\u306E\u3067WP\u304C\u51FA\u308B\u306A\u3089\u30B1\u30FC\u30BF\u30A4\u8CA9\u58F2\u54E1\u306B\u306A\u3063\u3066\u3082\u826F\u3044\u30EC\u30D9\u30EB\u3067WP\u306F\u597D\u304D\u3088\uFF1F\u003C/p\u003E\u0026mdash; \uD83E\uDD50\u9ED2\u6FA4 (@kurosawa0626) \u003Ca href=\u0022https://x.com/kurosawa0626/status/517655415874539520?ref_src=twsrc%5Etfw\u0022\u003EOctober 2, 2014\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:16.1464656+00:00",
-      "FreshUntil": "2027-02-24T16:19:16.1464656+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7840,6 +7840,17 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://www.exiv2.org/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.exiv2.org/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.exiv2.org/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:19.2949523+00:00",
+      "FreshUntil": "2027-02-24T16:19:19.2949523+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://hiro20180901.com/2023/02/13/keepassxc-ssh-agent-pageant-software-and-git-for-windows/": {
       "HtmlContent": "",
       "OgpCard": {
@@ -7854,17 +7865,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:27.6161249+00:00",
       "FreshUntil": "2027-02-24T17:39:27.6161249+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://www.exiv2.org/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.exiv2.org/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.exiv2.org/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:19.2949523+00:00",
-      "FreshUntil": "2027-02-24T16:19:19.2949523+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -7993,23 +7993,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/Fuhduki/status/1131135687959302144": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u30B3\u30FC\u30CA\u30F3\u30D7\u30ED\u3067\u3001\u3042\u308C\u3060\u3051\u5B89\u304F\u306A\u304F\u3066\u30825k\u3050\u3089\u3044\u306B\u53CE\u307E\u308B\u3068\u601D\u3046\u3051\u3069\u3082\u3002\u003C/p\u003E\u0026mdash; \u6953\u6708(Fuhduki) (@Fuhduki) \u003Ca href=\u0022https://x.com/Fuhduki/status/1131135687959302144?ref_src=twsrc%5Etfw\u0022\u003EMay 22, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:23:43.9310826+00:00",
-      "FreshUntil": "2027-02-24T16:23:43.9310826+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "http://kei-sakaki.jp/2014/08/30/intel-galileo-development-board-windows-internet-of-things-3/": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022wp-embedded-content\u0022 data-secret=\u00221Klvs4iUKM\u0022\u003E\u003Ca href=\u0022https://kei-sakaki.jp/2014/08/30/intel-galileo-development-board-windows-internet-of-things-3/\u0022\u003E\u30A4\u30F3\u30C6\u30EB Galileo \u958B\u767A\u30DC\u30FC\u30C9\u3067Windows IoT\u3092\u52D5\u304B\u3059 \u2013 \u88DC\u907A\u003C/a\u003E\u003C/blockquote\u003E\u003Ciframe sandbox=\u0022allow-scripts\u0022 security=\u0022restricted\u0022 src=\u0022https://kei-sakaki.jp/2014/08/30/intel-galileo-development-board-windows-internet-of-things-3/embed/#?secret=1Klvs4iUKM\u0022 width=\u0022600\u0022 height=\u0022338\u0022 title=\u0022\u0026#8220;\u30A4\u30F3\u30C6\u30EB Galileo \u958B\u767A\u30DC\u30FC\u30C9\u3067Windows IoT\u3092\u52D5\u304B\u3059 \u2013 \u88DC\u907A\u0026#8221; \u0026#8212; KEI SAKAKI\u0026#039;s PAGE.\u0022 data-secret=\u00221Klvs4iUKM\u0022 frameborder=\u00220\u0022 marginwidth=\u00220\u0022 marginheight=\u00220\u0022 scrolling=\u0022no\u0022 class=\u0022wp-embedded-content\u0022\u003E\u003C/iframe\u003E\u003Cscript\u003E\n/*! This file is auto-generated */\n!function(d,l){\u0022use strict\u0022;l.querySelector\u0026\u0026d.addEventListener\u0026\u0026\u0022undefined\u0022!=typeof URL\u0026\u0026(d.wp=d.wp||{},d.wp.receiveEmbedMessage||(d.wp.receiveEmbedMessage=function(e){var t=e.data;if((t||t.secret||t.message||t.value)\u0026\u0026!/[^a-zA-Z0-9]/.test(t.secret)){for(var s,r,n,a=l.querySelectorAll(\u0027iframe[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),o=l.querySelectorAll(\u0027blockquote[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),c=new RegExp(\u0022^https?:$\u0022,\u0022i\u0022),i=0;i\u003Co.length;i\u002B\u002B)o[i].style.display=\u0022none\u0022;for(i=0;i\u003Ca.length;i\u002B\u002B)s=a[i],e.source===s.contentWindow\u0026\u0026(s.removeAttribute(\u0022style\u0022),\u0022height\u0022===t.message?(1e3\u003C(r=parseInt(t.value,10))?r=1e3:~~r\u003C200\u0026\u0026(r=200),s.height=r):\u0022link\u0022===t.message\u0026\u0026(r=new URL(s.getAttribute(\u0022src\u0022)),n=new URL(t.value),c.test(n.protocol))\u0026\u0026n.host===r.host\u0026\u0026l.activeElement===s\u0026\u0026(d.top.location.href=t.value))}},d.addEventListener(\u0022message\u0022,d.wp.receiveEmbedMessage,!1),l.addEventListener(\u0022DOMContentLoaded\u0022,function(){for(var e,t,s=l.querySelectorAll(\u0022iframe.wp-embedded-content\u0022),r=0;r\u003Cs.length;r\u002B\u002B)(t=(e=s[r]).getAttribute(\u0022data-secret\u0022))||(t=Math.random().toString(36).substring(2,12),e.src\u002B=\u0022#?secret=\u0022\u002Bt,e.setAttribute(\u0022data-secret\u0022,t)),e.contentWindow.postMessage({message:\u0022ready\u0022,secret:t},\u0022*\u0022)},!1)))}(window,document);\n//# sourceURL=https://kei-sakaki.jp/wp-includes/js/wp-embed.min.js\n\u003C/script\u003E\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:14.7448965+00:00",
       "FreshUntil": "2027-02-24T16:19:14.7448965+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://x.com/Fuhduki/status/1131135687959302144": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u30B3\u30FC\u30CA\u30F3\u30D7\u30ED\u3067\u3001\u3042\u308C\u3060\u3051\u5B89\u304F\u306A\u304F\u3066\u30825k\u3050\u3089\u3044\u306B\u53CE\u307E\u308B\u3068\u601D\u3046\u3051\u3069\u3082\u3002\u003C/p\u003E\u0026mdash; \u6953\u6708(Fuhduki) (@Fuhduki) \u003Ca href=\u0022https://x.com/Fuhduki/status/1131135687959302144?ref_src=twsrc%5Etfw\u0022\u003EMay 22, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:23:43.9310826+00:00",
+      "FreshUntil": "2027-02-24T16:23:43.9310826+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8037,17 +8037,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "http://windows.1strentalserver.com/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://windows.1strentalserver.com/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://windows.1strentalserver.com/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:16.6596119+00:00",
-      "FreshUntil": "2027-02-24T16:19:16.6596119+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://blog.hitsujin.jp/entry/2020/02/06/213000": {
       "HtmlContent": "",
       "OgpCard": {
@@ -8062,6 +8051,17 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:22.3018626+00:00",
       "FreshUntil": "2027-02-24T17:39:22.3018626+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "http://windows.1strentalserver.com/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://windows.1strentalserver.com/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://windows.1strentalserver.com/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:16.6596119+00:00",
+      "FreshUntil": "2027-02-24T16:19:16.6596119+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8269,17 +8269,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 1,
-      "LastSuccessAt": null,
-      "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:35.1544506+00:00",
-      "NextRetryAt": "2026-10-04T14:07:35.1544506+00:00",
-      "ErrorSummary": "Failed to fetch metadata",
-      "IsLegacyOgpHtml": false
-    },
     "https://x.com/hitsuji_no_hito/status/670619281554477056": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3053\u3093\u306A\u304A\u8089\u3082\u3042\u308A\u307E\u3057 \u003Ca href=\u0022https://t.co/ht4SUVcD09\u0022\u003Epic.twitter.com/ht4SUVcD09\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/670619281554477056?ref_src=twsrc%5Etfw\u0022\u003ENovember 28, 2015\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
@@ -8289,6 +8278,17 @@
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.kingston.com/jp/memory/search/model/101121/synology-diskstation-ds920\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 1,
+      "LastSuccessAt": null,
+      "FreshUntil": null,
+      "LastFailureAt": "2026-10-04T08:07:35.1544506+00:00",
+      "NextRetryAt": "2026-10-04T14:07:35.1544506+00:00",
+      "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
     "https://blog.hitsujin.jp/entry/2015/12/12/234422": {
@@ -8367,6 +8367,17 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "http://eveningstar.hateblo.jp/entry/2014/05/12/170930": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Feveningstar.hateblo.jp%2Fentry%2F2014%2F05%2F12%2F170930\u0022 title=\u0022FireFileCopy\u3068\u30A6\u30A3\u30EB\u30B9\u30D0\u30B9\u30BF\u30FC - \u30E1\u30E2\u306E\u796D\u308A\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:15.1658135+00:00",
+      "FreshUntil": "2027-02-24T16:19:15.1658135+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://kyash.co/kyashcard/": {
       "HtmlContent": "",
       "OgpCard": {
@@ -8381,17 +8392,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:26.1672226+00:00",
       "FreshUntil": "2027-02-24T17:39:26.1672226+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "http://eveningstar.hateblo.jp/entry/2014/05/12/170930": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Feveningstar.hateblo.jp%2Fentry%2F2014%2F05%2F12%2F170930\u0022 title=\u0022FireFileCopy\u3068\u30A6\u30A3\u30EB\u30B9\u30D0\u30B9\u30BF\u30FC - \u30E1\u30E2\u306E\u796D\u308A\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:15.1658135+00:00",
-      "FreshUntil": "2027-02-24T16:19:15.1658135+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8416,12 +8416,20 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://gist.github.com/Ovis/351e36bdd99f64f0421dac1e59f6ba2c": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cscript src=\u0022https://gist.github.com/Ovis/351e36bdd99f64f0421dac1e59f6ba2c.js\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
-      "OgpCard": null,
+    "http://gigazine.net/news/20150113-windows10-for-mobile/": {
+      "HtmlContent": "",
+      "OgpCard": {
+        "Url": "https://gigazine.net/news/20150113-windows10-for-mobile/",
+        "DisplayUrl": "gigazine.net/news/20150113-windows10-for-mobile/",
+        "Title": "\u8FD1\u65E5\u958B\u50AC\u306EWindows 10\u30A4\u30D9\u30F3\u30C8\u3067\u65B0Windows Phone\u306B\u95A2\u3059\u308B\u767A\u8868\u306E\u671F\u5F85\u304C\u9AD8\u307E\u308B",
+        "Description": "Microsoft\u306F2015\u5E741\u670821\u65E5\u306BWindows 10\u306B\u95A2\u3059\u308B\u30A4\u30D9\u30F3\u30C8\u3092\u958B\u50AC\u3057\u307E\u3059\u304C\u3001PC\u7528\u306EWindows 10\u306B\u95A2\u3059\u308B\u5831\u544A\u4EE5\u5916\u306B\u3082\u3001\u30E2\u30D0\u30A4\u30EBOS\u7528\u306E\u65B0OS\u300CWindows 10 for mobile(\u4EEE\u79F0)\u300D\u304C\u767A\u8868\u3055\u308C\u308B\u306E\u3067\u306F\u306A\u3044\u304B\u3068\u671F\u5F85\u3055\u308C\u3066\u3044\u307E\u3059\u3002",
+        "SiteName": "GIGAZINE",
+        "ImageUrl": "https://i.gzn.jp/img/2015/01/13/windows10-for-mobile/00-top.png",
+        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgigazine.net%2Fnews%2F20150113-windows10-for-mobile%2F\u0026sz=32"
+      },
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:21:57.5441002+00:00",
-      "FreshUntil": "2027-02-24T16:21:57.5441002+00:00",
+      "LastSuccessAt": "2026-08-28T17:39:23.7745878+00:00",
+      "FreshUntil": "2027-02-24T17:39:23.7745878+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8438,20 +8446,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "http://gigazine.net/news/20150113-windows10-for-mobile/": {
-      "HtmlContent": "",
-      "OgpCard": {
-        "Url": "https://gigazine.net/news/20150113-windows10-for-mobile/",
-        "DisplayUrl": "gigazine.net/news/20150113-windows10-for-mobile/",
-        "Title": "\u8FD1\u65E5\u958B\u50AC\u306EWindows 10\u30A4\u30D9\u30F3\u30C8\u3067\u65B0Windows Phone\u306B\u95A2\u3059\u308B\u767A\u8868\u306E\u671F\u5F85\u304C\u9AD8\u307E\u308B",
-        "Description": "Microsoft\u306F2015\u5E741\u670821\u65E5\u306BWindows 10\u306B\u95A2\u3059\u308B\u30A4\u30D9\u30F3\u30C8\u3092\u958B\u50AC\u3057\u307E\u3059\u304C\u3001PC\u7528\u306EWindows 10\u306B\u95A2\u3059\u308B\u5831\u544A\u4EE5\u5916\u306B\u3082\u3001\u30E2\u30D0\u30A4\u30EBOS\u7528\u306E\u65B0OS\u300CWindows 10 for mobile(\u4EEE\u79F0)\u300D\u304C\u767A\u8868\u3055\u308C\u308B\u306E\u3067\u306F\u306A\u3044\u304B\u3068\u671F\u5F85\u3055\u308C\u3066\u3044\u307E\u3059\u3002",
-        "SiteName": "GIGAZINE",
-        "ImageUrl": "https://i.gzn.jp/img/2015/01/13/windows10-for-mobile/00-top.png",
-        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgigazine.net%2Fnews%2F20150113-windows10-for-mobile%2F\u0026sz=32"
-      },
+    "https://gist.github.com/Ovis/351e36bdd99f64f0421dac1e59f6ba2c": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cscript src=\u0022https://gist.github.com/Ovis/351e36bdd99f64f0421dac1e59f6ba2c.js\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
+      "OgpCard": null,
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T17:39:23.7745878+00:00",
-      "FreshUntil": "2027-02-24T17:39:23.7745878+00:00",
+      "LastSuccessAt": "2026-08-28T16:21:57.5441002+00:00",
+      "FreshUntil": "2027-02-24T16:21:57.5441002+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://x.com/hitsuji_no_hito/status/709738979361366017": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3046\u3071\u3055\u307E\u304B\u3089\u3082\u3089\u3063\u305F\u30AB\u30E9\u30FC\u30B3\u30FC\u30F3\u3067\u3059\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044 \u003Ca href=\u0022https://t.co/91YtAXx1cb\u0022\u003Epic.twitter.com/91YtAXx1cb\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/709738979361366017?ref_src=twsrc%5Etfw\u0022\u003EMarch 15, 2016\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:22:43.3988437+00:00",
+      "FreshUntil": "2027-02-24T16:22:43.3988437+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8476,12 +8487,20 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/hitsuji_no_hito/status/709738979361366017": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3046\u3071\u3055\u307E\u304B\u3089\u3082\u3089\u3063\u305F\u30AB\u30E9\u30FC\u30B3\u30FC\u30F3\u3067\u3059\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044 \u003Ca href=\u0022https://t.co/91YtAXx1cb\u0022\u003Epic.twitter.com/91YtAXx1cb\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/709738979361366017?ref_src=twsrc%5Etfw\u0022\u003EMarch 15, 2016\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
+    "https://blog.hitsujin.jp/entry/2015/11/08/235404": {
+      "HtmlContent": "",
+      "OgpCard": {
+        "Url": "https://blog.hitsujin.jp/entry/2015/11/08/235404.html",
+        "DisplayUrl": "blog.hitsujin.jp/entry/2015/11/08/235404.html",
+        "Title": "\u3075\u308B\u3055\u3068\u7D0D\u7A0E\u3092\u3057\u3066\u307F\u305F | Pandora Pocket",
+        "Description": "\u304B\u3051\u3053\u307F\u3075\u308B\u3055\u3068\u7D0D\u7A0E\u3057\u3066\u3044\u308B\u0026mdash; \u305F\u306A\u304B\uD83D\uDC27 (@tanaka_733) November...",
+        "SiteName": "Pandora Pocket",
+        "ImageUrl": null,
+        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fblog.hitsujin.jp%2Fentry%2F2015%2F11%2F08%2F235404.html\u0026sz=32"
+      },
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:22:43.3988437+00:00",
-      "FreshUntil": "2027-02-24T16:22:43.3988437+00:00",
+      "LastSuccessAt": "2026-08-28T17:39:23.2589569+00:00",
+      "FreshUntil": "2027-02-24T17:39:23.2589569+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8506,20 +8525,12 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://blog.hitsujin.jp/entry/2015/11/08/235404": {
-      "HtmlContent": "",
-      "OgpCard": {
-        "Url": "https://blog.hitsujin.jp/entry/2015/11/08/235404.html",
-        "DisplayUrl": "blog.hitsujin.jp/entry/2015/11/08/235404.html",
-        "Title": "\u3075\u308B\u3055\u3068\u7D0D\u7A0E\u3092\u3057\u3066\u307F\u305F | Pandora Pocket",
-        "Description": "\u304B\u3051\u3053\u307F\u3075\u308B\u3055\u3068\u7D0D\u7A0E\u3057\u3066\u3044\u308B\u0026mdash; \u305F\u306A\u304B\uD83D\uDC27 (@tanaka_733) November...",
-        "SiteName": "Pandora Pocket",
-        "ImageUrl": null,
-        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fblog.hitsujin.jp%2Fentry%2F2015%2F11%2F08%2F235404.html\u0026sz=32"
-      },
+    "https://x.com/VFrontDe/status/998868087586934785": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022en\u0022 dir=\u0022ltr\u0022\u003EIf you get a [WinError 10054] with my \u003Ca href=\u0022https://x.com/hashtag/ESXi?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#ESXi\u003C/a\u003E-Customizer-PS script or other \u003Ca href=\u0022https://x.com/hashtag/PowerCLI?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#PowerCLI\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/Imagebuilder?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#Imagebuilder\u003C/a\u003E scripts this can be caused by recent \u003Ca href=\u0022https://x.com/hashtag/SSL?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#SSL\u003C/a\u003E changes (requirement of \u003Ca href=\u0022https://x.com/hashtag/TLS?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#TLS\u003C/a\u003E 1.2) at \u003Ca href=\u0022https://x.com/hashtag/VMware?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#VMware\u003C/a\u003E. To fix that enable enable strong crypto as per \u003Ca href=\u0022https://t.co/15nyxyKbrW\u0022\u003Ehttps://t.co/15nyxyKbrW\u003C/a\u003E\u003C/p\u003E\u0026mdash; Andreas Peetz\uD83D\uDEE1\uFE0F (@VFrontDe) \u003Ca href=\u0022https://x.com/VFrontDe/status/998868087586934785?ref_src=twsrc%5Etfw\u0022\u003EMay 22, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T17:39:23.2589569+00:00",
-      "FreshUntil": "2027-02-24T17:39:23.2589569+00:00",
+      "LastSuccessAt": "2026-08-28T16:19:17.3594773+00:00",
+      "FreshUntil": "2027-02-24T16:19:17.3594773+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8544,12 +8555,12 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/VFrontDe/status/998868087586934785": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022en\u0022 dir=\u0022ltr\u0022\u003EIf you get a [WinError 10054] with my \u003Ca href=\u0022https://x.com/hashtag/ESXi?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#ESXi\u003C/a\u003E-Customizer-PS script or other \u003Ca href=\u0022https://x.com/hashtag/PowerCLI?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#PowerCLI\u003C/a\u003E \u003Ca href=\u0022https://x.com/hashtag/Imagebuilder?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#Imagebuilder\u003C/a\u003E scripts this can be caused by recent \u003Ca href=\u0022https://x.com/hashtag/SSL?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#SSL\u003C/a\u003E changes (requirement of \u003Ca href=\u0022https://x.com/hashtag/TLS?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#TLS\u003C/a\u003E 1.2) at \u003Ca href=\u0022https://x.com/hashtag/VMware?src=hash\u0026amp;ref_src=twsrc%5Etfw\u0022\u003E#VMware\u003C/a\u003E. To fix that enable enable strong crypto as per \u003Ca href=\u0022https://t.co/15nyxyKbrW\u0022\u003Ehttps://t.co/15nyxyKbrW\u003C/a\u003E\u003C/p\u003E\u0026mdash; Andreas Peetz\uD83D\uDEE1\uFE0F (@VFrontDe) \u003Ca href=\u0022https://x.com/VFrontDe/status/998868087586934785?ref_src=twsrc%5Etfw\u0022\u003EMay 22, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+    "http://blogofmobile.com/article/22397": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022wp-embedded-content\u0022 data-secret=\u002271OgOqgCre\u0022\u003E\u003Ca href=\u0022http://blogofmobile.com/article/22397\u0022\u003EPolaroid\u304CWindows Phone 8.1\u642D\u8F09\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3WinPro 5.0\u3092\u516C\u958B\u003C/a\u003E\u003C/blockquote\u003E\u003Ciframe sandbox=\u0022allow-scripts\u0022 security=\u0022restricted\u0022 src=\u0022http://blogofmobile.com/article/22397/embed#?secret=71OgOqgCre\u0022 width=\u0022600\u0022 height=\u0022338\u0022 title=\u0022\u0026#8220;Polaroid\u304CWindows Phone 8.1\u642D\u8F09\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3WinPro 5.0\u3092\u516C\u958B\u0026#8221; \u0026#8212; blog of mobile\u0022 data-secret=\u002271OgOqgCre\u0022 frameborder=\u00220\u0022 marginwidth=\u00220\u0022 marginheight=\u00220\u0022 scrolling=\u0022no\u0022 class=\u0022wp-embedded-content\u0022\u003E\u003C/iframe\u003E\u003Cscript type=\u0022text/javascript\u0022\u003E\n/*! This file is auto-generated */\n!function(d,l){\u0022use strict\u0022;var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){for(var r,a,i,s=l.querySelectorAll(\u0027iframe[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),n=l.querySelectorAll(\u0027blockquote[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),o=new RegExp(\u0022^https?:$\u0022,\u0022i\u0022),c=0;c\u003Cn.length;c\u002B\u002B)n[c].style.display=\u0022none\u0022;for(c=0;c\u003Cs.length;c\u002B\u002B)if(r=s[c],e.source===r.contentWindow){if(r.removeAttribute(\u0022style\u0022),\u0022height\u0022===t.message){if(1e3\u003C(i=parseInt(t.value,10)))i=1e3;else if(~~i\u003C200)i=200;r.height=i}if(\u0022link\u0022===t.message)if(a=l.createElement(\u0022a\u0022),i=l.createElement(\u0022a\u0022),a.href=r.getAttribute(\u0022src\u0022),i.href=t.value,o.test(i.protocol))if(i.host===a.host)if(l.activeElement===r)d.top.location.href=t.value}}},e)d.addEventListener(\u0022message\u0022,d.wp.receiveEmbedMessage,!1),l.addEventListener(\u0022DOMContentLoaded\u0022,t,!1),d.addEventListener(\u0022load\u0022,t,!1);function t(){if(!o){o=!0;for(var e,t,r,a=-1!==navigator.appVersion.indexOf(\u0022MSIE 10\u0022),i=!!navigator.userAgent.match(/Trident.*rv:11\\./),s=l.querySelectorAll(\u0022iframe.wp-embedded-content\u0022),n=0;n\u003Cs.length;n\u002B\u002B){if(!(r=(t=s[n]).getAttribute(\u0022data-secret\u0022)))r=Math.random().toString(36).substr(2,10),t.src\u002B=\u0022#?secret=\u0022\u002Br,t.setAttribute(\u0022data-secret\u0022,r);if(a||i)(e=t.cloneNode(!0)).removeAttribute(\u0022security\u0022),t.parentNode.replaceChild(e,t);t.contentWindow.postMessage({message:\u0022ready\u0022,secret:r},\u0022*\u0022)}}}}(window,document);\n\u003C/script\u003E\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:17.3594773+00:00",
-      "FreshUntil": "2027-02-24T16:19:17.3594773+00:00",
+      "LastSuccessAt": "2026-08-28T16:19:21.3522341+00:00",
+      "FreshUntil": "2027-02-24T16:19:21.3522341+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8561,17 +8572,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:14.7225775+00:00",
       "FreshUntil": "2027-02-24T16:19:14.7225775+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "http://blogofmobile.com/article/22397": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022wp-embedded-content\u0022 data-secret=\u002271OgOqgCre\u0022\u003E\u003Ca href=\u0022http://blogofmobile.com/article/22397\u0022\u003EPolaroid\u304CWindows Phone 8.1\u642D\u8F09\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3WinPro 5.0\u3092\u516C\u958B\u003C/a\u003E\u003C/blockquote\u003E\u003Ciframe sandbox=\u0022allow-scripts\u0022 security=\u0022restricted\u0022 src=\u0022http://blogofmobile.com/article/22397/embed#?secret=71OgOqgCre\u0022 width=\u0022600\u0022 height=\u0022338\u0022 title=\u0022\u0026#8220;Polaroid\u304CWindows Phone 8.1\u642D\u8F09\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3WinPro 5.0\u3092\u516C\u958B\u0026#8221; \u0026#8212; blog of mobile\u0022 data-secret=\u002271OgOqgCre\u0022 frameborder=\u00220\u0022 marginwidth=\u00220\u0022 marginheight=\u00220\u0022 scrolling=\u0022no\u0022 class=\u0022wp-embedded-content\u0022\u003E\u003C/iframe\u003E\u003Cscript type=\u0022text/javascript\u0022\u003E\n/*! This file is auto-generated */\n!function(d,l){\u0022use strict\u0022;var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){for(var r,a,i,s=l.querySelectorAll(\u0027iframe[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),n=l.querySelectorAll(\u0027blockquote[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),o=new RegExp(\u0022^https?:$\u0022,\u0022i\u0022),c=0;c\u003Cn.length;c\u002B\u002B)n[c].style.display=\u0022none\u0022;for(c=0;c\u003Cs.length;c\u002B\u002B)if(r=s[c],e.source===r.contentWindow){if(r.removeAttribute(\u0022style\u0022),\u0022height\u0022===t.message){if(1e3\u003C(i=parseInt(t.value,10)))i=1e3;else if(~~i\u003C200)i=200;r.height=i}if(\u0022link\u0022===t.message)if(a=l.createElement(\u0022a\u0022),i=l.createElement(\u0022a\u0022),a.href=r.getAttribute(\u0022src\u0022),i.href=t.value,o.test(i.protocol))if(i.host===a.host)if(l.activeElement===r)d.top.location.href=t.value}}},e)d.addEventListener(\u0022message\u0022,d.wp.receiveEmbedMessage,!1),l.addEventListener(\u0022DOMContentLoaded\u0022,t,!1),d.addEventListener(\u0022load\u0022,t,!1);function t(){if(!o){o=!0;for(var e,t,r,a=-1!==navigator.appVersion.indexOf(\u0022MSIE 10\u0022),i=!!navigator.userAgent.match(/Trident.*rv:11\\./),s=l.querySelectorAll(\u0022iframe.wp-embedded-content\u0022),n=0;n\u003Cs.length;n\u002B\u002B){if(!(r=(t=s[n]).getAttribute(\u0022data-secret\u0022)))r=Math.random().toString(36).substr(2,10),t.src\u002B=\u0022#?secret=\u0022\u002Br,t.setAttribute(\u0022data-secret\u0022,r);if(a||i)(e=t.cloneNode(!0)).removeAttribute(\u0022security\u0022),t.parentNode.replaceChild(e,t);t.contentWindow.postMessage({message:\u0022ready\u0022,secret:r},\u0022*\u0022)}}}}(window,document);\n\u003C/script\u003E\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:21.3522341+00:00",
-      "FreshUntil": "2027-02-24T16:19:21.3522341+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8618,23 +8618,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.amazon.co.jp/dp/B00KWZNAYG/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B00KWZNAYG/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B00KWZNAYG/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-10-04T08:08:19.227233+00:00",
-      "FreshUntil": "2027-04-02T08:08:19.227233+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://x.com/1Password/status/1003424991336189952": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022en\u0022 dir=\u0022ltr\u0022\u003EI see. Thanks! 1Password only supports signed browsers, so I recommend using Chrome, Opera, or Vivaldi on your device.\u003C/p\u003E\u0026mdash; 1Password (@1Password) \u003Ca href=\u0022https://x.com/1Password/status/1003424991336189952?ref_src=twsrc%5Etfw\u0022\u003EJune 3, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:15.0213586+00:00",
       "FreshUntil": "2027-02-24T16:19:15.0213586+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://www.amazon.co.jp/dp/B00KWZNAYG/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B00KWZNAYG/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B00KWZNAYG/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-10-04T08:08:19.227233+00:00",
+      "FreshUntil": "2027-04-02T08:08:19.227233+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8727,17 +8727,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/hitsuji_no_hito/status/711023698296184832": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u307F\u3064\u3070\u305F\u3093\u304B\u3089\u306E\u30AB\u30E9\u30FC\u30B3\u30FC\u30F3\u3067\u3059\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044 \u003Ca href=\u0022https://t.co/Tx8H2Xxklg\u0022\u003Epic.twitter.com/Tx8H2Xxklg\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/711023698296184832?ref_src=twsrc%5Etfw\u0022\u003EMarch 19, 2016\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:22:43.9293406+00:00",
-      "FreshUntil": "2027-02-24T16:22:43.9293406+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://x.com/ch3cooh/status/1088672214092701696": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003EOK\u3002Wii\u3063\u3066\u5468\u8FBA\u6A5F\u5668\u7D50\u69CB\u63C3\u3048\u308B\u5FC5\u8981\u304C\u3042\u3063\u3066\u30EC\u30B7\u30FC\u30D0\u30FC(TV\u306E\u4E0A\u306B\u304A\u304F\u3084\u3064)\u3068\u304B\u30BB\u30C3\u30C8\u58F2\u308A\u3057\u3066\u308B\u3084\u3064\u3092\u3068\u308A\u3042\u3048\u305A1\u30BB\u30C3\u30C8\u8CB7\u3063\u305F\u65B9\u304C\u3044\u3044\u304B\u3082\u3002\u30CF\u30FC\u30C9\u30AA\u30D5\u3067\u63C3\u3048\u308B\u306E\u3082\u624B\u3060\u3051\u3069\u2026\u2026\u3002\u30B7\u30A7\u30A4\u30D7\u30DC\u30AF\u30B7\u30F3\u30B0\u4ED8\u304D\u30672200\u5186\u3067\u8CB7\u3048\u308B\u3063\u307D\u3044 \u003Ca href=\u0022https://t.co/75j7GiPPHW\u0022\u003Ehttps://t.co/75j7GiPPHW\u003C/a\u003E\u003C/p\u003E\u0026mdash; \u3055\u304F\u3055\u3093 (@ch3cooh) \u003Ca href=\u0022https://x.com/ch3cooh/status/1088672214092701696?ref_src=twsrc%5Etfw\u0022\u003EJanuary 25, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
@@ -8749,12 +8738,34 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://x.com/hitsuji_no_hito/status/711023698296184832": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u307F\u3064\u3070\u305F\u3093\u304B\u3089\u306E\u30AB\u30E9\u30FC\u30B3\u30FC\u30F3\u3067\u3059\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044 \u003Ca href=\u0022https://t.co/Tx8H2Xxklg\u0022\u003Epic.twitter.com/Tx8H2Xxklg\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/711023698296184832?ref_src=twsrc%5Etfw\u0022\u003EMarch 19, 2016\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:22:43.9293406+00:00",
+      "FreshUntil": "2027-02-24T16:22:43.9293406+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://x.com/tanaka_733/status/663333740928630784": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u304B\u3051\u3053\u307F\u3075\u308B\u3055\u3068\u7D0D\u7A0E\u3057\u3066\u3044\u308B\u003C/p\u003E\u0026mdash; \u305F\u306A\u304B\uD83D\uDC27 (@tanaka_733) \u003Ca href=\u0022https://x.com/tanaka_733/status/663333740928630784?ref_src=twsrc%5Etfw\u0022\u003ENovember 8, 2015\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:13.598976+00:00",
       "FreshUntil": "2027-02-24T16:19:13.598976+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://gist.github.com/Ovis/891d0031c93a296e019b1da7e7b9cbb6": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cscript src=\u0022https://gist.github.com/Ovis/891d0031c93a296e019b1da7e7b9cbb6.js\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:13.115278+00:00",
+      "FreshUntil": "2027-02-24T16:19:13.115278+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8774,17 +8785,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:30.1485688+00:00",
       "FreshUntil": "2027-02-24T17:39:30.1485688+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://gist.github.com/Ovis/891d0031c93a296e019b1da7e7b9cbb6": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cscript src=\u0022https://gist.github.com/Ovis/891d0031c93a296e019b1da7e7b9cbb6.js\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:13.115278+00:00",
-      "FreshUntil": "2027-02-24T16:19:13.115278+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8831,23 +8831,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.amazon.co.jp/dp/B07KSVBMZS/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B07KSVBMZS/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B07KSVBMZS/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-10-04T08:07:47.1453469+00:00",
-      "FreshUntil": "2027-04-02T08:07:47.1453469+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://x.com/okazuki/status/650664991754813440": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3044\u3064\u4E38\u713C\u304D\u3055\u308C\u3066\u3082\u3044\u3044\u3088\u3046\u306B\u003C/p\u003E\u0026mdash; \u304B\u305A\u304D(Kazuki Ota) | CSA \u0026amp; Evangelist at MS (@okazuki) \u003Ca href=\u0022https://x.com/okazuki/status/650664991754813440?ref_src=twsrc%5Etfw\u0022\u003EOctober 4, 2015\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:44.3019044+00:00",
       "FreshUntil": "2027-02-24T16:19:44.3019044+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://www.amazon.co.jp/dp/B07KSVBMZS/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B07KSVBMZS/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B07KSVBMZS/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-10-04T08:07:47.1453469+00:00",
+      "FreshUntil": "2027-04-02T08:07:47.1453469+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -8943,25 +8943,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://blog.hitsujin.jp/entry/2019/01/08/232322": {
-      "HtmlContent": "",
-      "OgpCard": {
-        "Url": "https://blog.hitsujin.jp/entry/2019/01/08/232322.html",
-        "DisplayUrl": "blog.hitsujin.jp/entry/2019/01/08/232322.html",
-        "Title": "Kyash\u3068MoneyForward\u3092\u7D44\u307F\u5408\u308F\u305B\u308B\u3068\u6357\u308B | Pandora Pocket",
-        "Description": "\u5BB6\u8A08\u7C3F\u3068\u3057\u3066MoneyForward\u3092\u4F7F\u3063\u3066\u307E\u3059\u3002\n\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u6C7A\u6E08\u30C7\u30FC\u30BF\u3084\u9280\u884C\u53E3\u5EA7\u306E\u5F15\u304D\u843D\u3068...",
-        "SiteName": "Pandora Pocket",
-        "ImageUrl": null,
-        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fblog.hitsujin.jp%2Fentry%2F2019%2F01%2F08%2F232322.html\u0026sz=32"
-      },
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T17:39:25.3817847+00:00",
-      "FreshUntil": "2027-02-24T17:39:25.3817847+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://github.com/Ovis/SendDietProgress": {
       "HtmlContent": "",
       "OgpCard": {
@@ -8981,6 +8962,25 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://blog.hitsujin.jp/entry/2019/01/08/232322": {
+      "HtmlContent": "",
+      "OgpCard": {
+        "Url": "https://blog.hitsujin.jp/entry/2019/01/08/232322.html",
+        "DisplayUrl": "blog.hitsujin.jp/entry/2019/01/08/232322.html",
+        "Title": "Kyash\u3068MoneyForward\u3092\u7D44\u307F\u5408\u308F\u305B\u308B\u3068\u6357\u308B | Pandora Pocket",
+        "Description": "\u5BB6\u8A08\u7C3F\u3068\u3057\u3066MoneyForward\u3092\u4F7F\u3063\u3066\u307E\u3059\u3002\n\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u6C7A\u6E08\u30C7\u30FC\u30BF\u3084\u9280\u884C\u53E3\u5EA7\u306E\u5F15\u304D\u843D\u3068...",
+        "SiteName": "Pandora Pocket",
+        "ImageUrl": null,
+        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fblog.hitsujin.jp%2Fentry%2F2019%2F01%2F08%2F232322.html\u0026sz=32"
+      },
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T17:39:25.3817847+00:00",
+      "FreshUntil": "2027-02-24T17:39:25.3817847+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "http://blogs.windows.com/bloggingwindows/2015/03/17/windows-10-launching-this-summer-in-190-countries-and-111-languages/": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://blogs.windows.com/bloggingwindows/2015/03/17/windows-10-launching-this-summer-in-190-countries-and-111-languages/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://blogs.windows.com/bloggingwindows/2015/03/17/windows-10-launching-this-summer-in-190-countries-and-111-languages/\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
@@ -8989,17 +8989,6 @@
       "FreshUntil": null,
       "LastFailureAt": "2026-10-04T08:07:21.9035809+00:00",
       "NextRetryAt": "2026-10-04T14:07:21.9035809+00:00",
-      "ErrorSummary": "Failed to fetch metadata",
-      "IsLegacyOgpHtml": false
-    },
-    "http://www.soumu.go.jp/main_content/000351462.pdf": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www.soumu.go.jp/main_content/000351462.pdf\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www.soumu.go.jp/main_content/000351462.pdf\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 1,
-      "LastSuccessAt": null,
-      "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:37.646096+00:00",
-      "NextRetryAt": "2026-10-04T14:07:37.646096+00:00",
       "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
@@ -9014,15 +9003,15 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/hitsuji_no_hito/status/1136477127748927488": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003ENAS\u3092\u521D\u671F\u5316\u3059\u308B\u305F\u3081\u306B\u3001NAS\u5185\u306E\u30C7\u30FC\u30BF\u3092\u79FB\u52D5\u3055\u305B\u3066\u304A\u3044\u305FHDD\u304C\u8A8D\u8B58\u4E0D\u80FD\u306B\u306A\u3063\u3066\u60B2\u9CF4\u3092\u4E0A\u3052\u3066\u308B\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1136477127748927488?ref_src=twsrc%5Etfw\u0022\u003EJune 6, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+    "http://www.soumu.go.jp/main_content/000351462.pdf": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www.soumu.go.jp/main_content/000351462.pdf\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www.soumu.go.jp/main_content/000351462.pdf\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:21:53.6414015+00:00",
-      "FreshUntil": "2027-02-24T16:21:53.6414015+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
+      "Status": 1,
+      "LastSuccessAt": null,
+      "FreshUntil": null,
+      "LastFailureAt": "2026-10-04T08:07:37.646096+00:00",
+      "NextRetryAt": "2026-10-04T14:07:37.646096+00:00",
+      "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
     "https://www.amazon.co.jp/dp/B086R8T446/": {
@@ -9031,6 +9020,17 @@
       "Status": 0,
       "LastSuccessAt": "2026-10-04T08:07:35.3233389+00:00",
       "FreshUntil": "2027-04-02T08:07:35.3233389+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://x.com/hitsuji_no_hito/status/1136477127748927488": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003ENAS\u3092\u521D\u671F\u5316\u3059\u308B\u305F\u3081\u306B\u3001NAS\u5185\u306E\u30C7\u30FC\u30BF\u3092\u79FB\u52D5\u3055\u305B\u3066\u304A\u3044\u305FHDD\u304C\u8A8D\u8B58\u4E0D\u80FD\u306B\u306A\u3063\u3066\u60B2\u9CF4\u3092\u4E0A\u3052\u3066\u308B\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/1136477127748927488?ref_src=twsrc%5Etfw\u0022\u003EJune 6, 2019\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:21:53.6414015+00:00",
+      "FreshUntil": "2027-02-24T16:21:53.6414015+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -9228,23 +9228,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "http://www.yamada-denki.jp/service/everyphone/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www.yamada-denki.jp/service/everyphone/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www.yamada-denki.jp/service/everyphone/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:30.6243069+00:00",
-      "FreshUntil": "2027-02-24T16:19:30.6243069+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "http://www.sugakico.co.jp/campaign/2019hangaku/suchanmatsuri.html": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www.sugakico.co.jp/campaign/2019hangaku/suchanmatsuri.html\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www.sugakico.co.jp/campaign/2019hangaku/suchanmatsuri.html\u003C/a\u003E\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:18.4314808+00:00",
       "FreshUntil": "2027-02-24T16:19:18.4314808+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "http://www.yamada-denki.jp/service/everyphone/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022http://www.yamada-denki.jp/service/everyphone/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttp://www.yamada-denki.jp/service/everyphone/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:30.6243069+00:00",
+      "FreshUntil": "2027-02-24T16:19:30.6243069+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -9313,17 +9313,6 @@
       "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
-    "https://www.amazon.co.jp/dp/B00358RIRC/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B00358RIRC/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B00358RIRC/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 1,
-      "LastSuccessAt": null,
-      "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:41.5929544+00:00",
-      "NextRetryAt": "2026-10-04T14:07:41.5929544+00:00",
-      "ErrorSummary": "Failed to fetch metadata",
-      "IsLegacyOgpHtml": false
-    },
     "https://od10z.wordpress.com/2015/04/12/windows10-for-phones-%e3%81%a7%e3%81%ae%e5%9c%b0%e5%9b%b3/": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022wp-embedded-content\u0022 data-secret=\u0022dAUpd33buH\u0022\u003E\u003Ca href=\u0022https://od10z.wordpress.com/2015/04/12/windows10-for-phones-%e3%81%a7%e3%81%ae%e5%9c%b0%e5%9b%b3/\u0022\u003EWindows10 for phones\u0026nbsp;\u3067\u306E\u5730\u56F3\u003C/a\u003E\u003C/blockquote\u003E\u003Ciframe sandbox=\u0022allow-scripts\u0022 security=\u0022restricted\u0022 src=\u0022https://od10z.wordpress.com/2015/04/12/windows10-for-phones-%e3%81%a7%e3%81%ae%e5%9c%b0%e5%9b%b3/embed/#?secret=dAUpd33buH\u0022 width=\u0022440\u0022 height=\u0022248\u0022 title=\u0022\u0026#8220;Windows10 for phones\u0026nbsp;\u3067\u306E\u5730\u56F3\u0026#8221; \u0026#8212; \u30B3\u30CE\u4E16\u754C\u30CB\u975E\u30BA\u0022 data-secret=\u0022dAUpd33buH\u0022 frameborder=\u00220\u0022 marginwidth=\u00220\u0022 marginheight=\u00220\u0022 scrolling=\u0022no\u0022 class=\u0022wp-embedded-content\u0022\u003E\u003C/iframe\u003E\u003Cscript\u003E\n/*! This file is auto-generated */\n!function(d,l){\u0022use strict\u0022;l.querySelector\u0026\u0026d.addEventListener\u0026\u0026\u0022undefined\u0022!=typeof URL\u0026\u0026(d.wp=d.wp||{},d.wp.receiveEmbedMessage||(d.wp.receiveEmbedMessage=function(e){var t=e.data;if((t||t.secret||t.message||t.value)\u0026\u0026!/[^a-zA-Z0-9]/.test(t.secret)){for(var s,r,n,a=l.querySelectorAll(\u0027iframe[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),o=l.querySelectorAll(\u0027blockquote[data-secret=\u0022\u0027\u002Bt.secret\u002B\u0027\u0022]\u0027),c=new RegExp(\u0022^https?:$\u0022,\u0022i\u0022),i=0;i\u003Co.length;i\u002B\u002B)o[i].style.display=\u0022none\u0022;for(i=0;i\u003Ca.length;i\u002B\u002B)s=a[i],e.source===s.contentWindow\u0026\u0026(s.removeAttribute(\u0022style\u0022),\u0022height\u0022===t.message?(1e3\u003C(r=parseInt(t.value,10))?r=1e3:~~r\u003C200\u0026\u0026(r=200),s.height=r):\u0022link\u0022===t.message\u0026\u0026(r=new URL(s.getAttribute(\u0022src\u0022)),n=new URL(t.value),c.test(n.protocol))\u0026\u0026n.host===r.host\u0026\u0026l.activeElement===s\u0026\u0026(d.top.location.href=t.value))}},d.addEventListener(\u0022message\u0022,d.wp.receiveEmbedMessage,!1),l.addEventListener(\u0022DOMContentLoaded\u0022,function(){for(var e,t,s=l.querySelectorAll(\u0022iframe.wp-embedded-content\u0022),r=0;r\u003Cs.length;r\u002B\u002B)(t=(e=s[r]).getAttribute(\u0022data-secret\u0022))||(t=Math.random().toString(36).substring(2,12),e.src\u002B=\u0022#?secret=\u0022\u002Bt,e.setAttribute(\u0022data-secret\u0022,t)),e.contentWindow.postMessage({message:\u0022ready\u0022,secret:t},\u0022*\u0022)},!1)))}(window,document);\n//# sourceURL=/wp-includes/js/wp-embed.min.js\n\u003C/script\u003E\n\u003C/div\u003E",
       "OgpCard": null,
@@ -9333,6 +9322,17 @@
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://www.amazon.co.jp/dp/B00358RIRC/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B00358RIRC/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B00358RIRC/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 1,
+      "LastSuccessAt": null,
+      "FreshUntil": null,
+      "LastFailureAt": "2026-10-04T08:07:41.5929544+00:00",
+      "NextRetryAt": "2026-10-04T14:07:41.5929544+00:00",
+      "ErrorSummary": "Failed to fetch metadata",
       "IsLegacyOgpHtml": false
     },
     "http://www.city.nagoya.jp/kurashi/category/20-3-4-8-0-0-0-0-0-0.html": {
@@ -9357,36 +9357,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://blogs.technet.microsoft.com/bernhard_frank/2016/11/24/add-flash-player-to-server-2016/": {
-      "HtmlContent": "",
-      "OgpCard": {
-        "Url": "https://learn.microsoft.com/en-us/archive/blogs/bernhard_frank/add-flash-player-to-server-2016",
-        "DisplayUrl": "learn.microsoft.com/en-us/archive/blogs/bernhard_frank/add-flash-player-to-server-2016",
-        "Title": "How to add the Adobe Flash Player / Shockwave Plugin for IE on Windows Server 2016",
-        "Description": "",
-        "SiteName": "learn.microsoft.com",
-        "ImageUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Farchive%2Fblogs%2Fbernhard_frank%2Fadd-flash-player-to-server-2016\u0026sz=32"
-      },
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T17:39:27.8158749+00:00",
-      "FreshUntil": "2027-02-24T17:39:27.8158749+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://www.amazon.co.jp/s?k=ABC\u0026rh=n:2250738051": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/s?k=ABC\u0026amp;rh=n:2250738051\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/s?k=ABC\u0026amp;rh=n:2250738051\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 1,
-      "LastSuccessAt": null,
-      "FreshUntil": null,
-      "LastFailureAt": "2026-10-04T08:07:24.1627603+00:00",
-      "NextRetryAt": "2026-10-04T14:07:24.1627603+00:00",
-      "ErrorSummary": "Failed to fetch metadata",
-      "IsLegacyOgpHtml": false
-    },
     "http://www.theverge.com/2015/3/18/8240137/lenovo-windows-phone-announcement": {
       "HtmlContent": "",
       "OgpCard": {
@@ -9406,6 +9376,47 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
+    "https://www.amazon.co.jp/s?k=ABC\u0026rh=n:2250738051": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/s?k=ABC\u0026amp;rh=n:2250738051\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/s?k=ABC\u0026amp;rh=n:2250738051\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 1,
+      "LastSuccessAt": null,
+      "FreshUntil": null,
+      "LastFailureAt": "2026-10-04T08:07:24.1627603+00:00",
+      "NextRetryAt": "2026-10-04T14:07:24.1627603+00:00",
+      "ErrorSummary": "Failed to fetch metadata",
+      "IsLegacyOgpHtml": false
+    },
+    "https://blogs.technet.microsoft.com/bernhard_frank/2016/11/24/add-flash-player-to-server-2016/": {
+      "HtmlContent": "",
+      "OgpCard": {
+        "Url": "https://learn.microsoft.com/en-us/archive/blogs/bernhard_frank/add-flash-player-to-server-2016",
+        "DisplayUrl": "learn.microsoft.com/en-us/archive/blogs/bernhard_frank/add-flash-player-to-server-2016",
+        "Title": "How to add the Adobe Flash Player / Shockwave Plugin for IE on Windows Server 2016",
+        "Description": "",
+        "SiteName": "learn.microsoft.com",
+        "ImageUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+        "FaviconUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Farchive%2Fblogs%2Fbernhard_frank%2Fadd-flash-player-to-server-2016\u0026sz=32"
+      },
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T17:39:27.8158749+00:00",
+      "FreshUntil": "2027-02-24T17:39:27.8158749+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://candy-line.tumblr.com/post/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cdiv class=\u0022tumblr-post\u0022 data-href=\u0022https://embed.tumblr.com/embed/post/t:0OcO4J8eQ5ICsuP0bjd_JA/167284883068/v2\u0022 data-did=\u002299483e570d64e050ce2a442549408658f433a33e\u0022  \u003E\u003Ca href=\u0022https://www.tumblr.com/candy-line/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86\u0022\u003Ehttps://www.tumblr.com/candy-line/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86\u003C/a\u003E\u003C/div\u003E\u003Cscript async src=\u0022https://assets.tumblr.com/post.js?_v=2e3257777411face7e6785c8941f968f\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:19:22.7993675+00:00",
+      "FreshUntil": "2027-02-24T16:19:22.7993675+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
     "https://www.balena.io/etcher/": {
       "HtmlContent": "",
       "OgpCard": {
@@ -9420,17 +9431,6 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:21.9852629+00:00",
       "FreshUntil": "2027-02-24T17:39:21.9852629+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
-    "https://candy-line.tumblr.com/post/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cdiv class=\u0022tumblr-post\u0022 data-href=\u0022https://embed.tumblr.com/embed/post/t:0OcO4J8eQ5ICsuP0bjd_JA/167284883068/v2\u0022 data-did=\u002299483e570d64e050ce2a442549408658f433a33e\u0022  \u003E\u003Ca href=\u0022https://www.tumblr.com/candy-line/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86\u0022\u003Ehttps://www.tumblr.com/candy-line/167284883068/raspberry-pi%E3%81%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2watchdog%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%82%87%E3%81%86\u003C/a\u003E\u003C/div\u003E\u003Cscript async src=\u0022https://assets.tumblr.com/post.js?_v=2e3257777411face7e6785c8941f968f\u0022\u003E\u003C/script\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:19:22.7993675+00:00",
-      "FreshUntil": "2027-02-24T16:19:22.7993675+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -9466,17 +9466,6 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://www.amazon.co.jp/dp/B07CKRNMVW/": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B07CKRNMVW/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B07CKRNMVW/\u003C/a\u003E\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-10-04T08:08:10.2309572+00:00",
-      "FreshUntil": "2027-04-02T08:08:10.2309572+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://www.itmedia.co.jp/pcuser/articles/1806/07/news110.html": {
       "HtmlContent": "",
       "OgpCard": {
@@ -9491,6 +9480,17 @@
       "Status": 0,
       "LastSuccessAt": "2026-08-28T17:39:21.8550431+00:00",
       "FreshUntil": "2027-02-24T17:39:21.8550431+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://www.amazon.co.jp/dp/B07CKRNMVW/": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ca href=\u0022https://www.amazon.co.jp/dp/B07CKRNMVW/\u0022 rel=\u0022noopener noreferrer\u0022 target=\u0022_blank\u0022\u003Ehttps://www.amazon.co.jp/dp/B07CKRNMVW/\u003C/a\u003E\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-10-04T08:08:10.2309572+00:00",
+      "FreshUntil": "2027-04-02T08:08:10.2309572+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
@@ -9526,23 +9526,23 @@
       "ErrorSummary": "",
       "IsLegacyOgpHtml": false
     },
-    "https://x.com/hitsuji_no_hito/status/972303240359366656": {
-      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3046\u3071\u3055\u307E\u304B\u3089\u3075\u305F\u3064\u76EE\u306E\u30D7\u30EC\u30BC\u30F3\u30C8\u3082\u3089\u305F\uFF01\u003Cbr\u003E\u79C1\u306F\u4E38\u713C\u304B\u308C\u307E\u305B\u3093\uFF01( \u003Ca href=\u0022https://t.co/k3x9vbwj43\u0022\u003Epic.twitter.com/k3x9vbwj43\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/972303240359366656?ref_src=twsrc%5Etfw\u0022\u003EMarch 10, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
-      "OgpCard": null,
-      "Status": 0,
-      "LastSuccessAt": "2026-08-28T16:23:39.4200859+00:00",
-      "FreshUntil": "2027-02-24T16:23:39.4200859+00:00",
-      "LastFailureAt": null,
-      "NextRetryAt": null,
-      "ErrorSummary": "",
-      "IsLegacyOgpHtml": false
-    },
     "https://ozuma.hatenablog.jp/entry/20140623/1403532516": {
       "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Ciframe src=\u0022https://hatenablog-parts.com/embed?url=https%3A%2F%2Fozuma.hatenablog.jp%2Fentry%2F20140623%2F1403532516\u0022 title=\u0022 ssh\u306B\u3088\u308B\u30E6\u30FC\u30B6\u5217\u6319\u653B\u6483\u0026quot;osueta\u0026quot; - \u308D\u3070\u96FB\u5B50\u304C\u8A70\u307E\u3064\u3066\u3090\u308B\u0022 class=\u0022embed-card embed-blogcard\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;\u0022\u003E\u003C/iframe\u003E\u003C/div\u003E",
       "OgpCard": null,
       "Status": 0,
       "LastSuccessAt": "2026-08-28T16:19:20.7883477+00:00",
       "FreshUntil": "2027-02-24T16:19:20.7883477+00:00",
+      "LastFailureAt": null,
+      "NextRetryAt": null,
+      "ErrorSummary": "",
+      "IsLegacyOgpHtml": false
+    },
+    "https://x.com/hitsuji_no_hito/status/972303240359366656": {
+      "HtmlContent": "\u003Cdiv class=\u0022oembed-container\u0022\u003E\u003Cblockquote class=\u0022twitter-tweet\u0022\u003E\u003Cp lang=\u0022ja\u0022 dir=\u0022ltr\u0022\u003E\u3046\u3071\u3055\u307E\u304B\u3089\u3075\u305F\u3064\u76EE\u306E\u30D7\u30EC\u30BC\u30F3\u30C8\u3082\u3089\u305F\uFF01\u003Cbr\u003E\u79C1\u306F\u4E38\u713C\u304B\u308C\u307E\u305B\u3093\uFF01( \u003Ca href=\u0022https://t.co/k3x9vbwj43\u0022\u003Epic.twitter.com/k3x9vbwj43\u003C/a\u003E\u003C/p\u003E\u0026mdash; Ovis\u22C8\u3072\u3064\u3058\u306E\u3072\u3068 (@hitsuji_no_hito) \u003Ca href=\u0022https://x.com/hitsuji_no_hito/status/972303240359366656?ref_src=twsrc%5Etfw\u0022\u003EMarch 10, 2018\u003C/a\u003E\u003C/blockquote\u003E\n\u003Cscript async src=\u0022https://platform.x.com/widgets.js\u0022 charset=\u0022utf-8\u0022\u003E\u003C/script\u003E\n\n\u003C/div\u003E",
+      "OgpCard": null,
+      "Status": 0,
+      "LastSuccessAt": "2026-08-28T16:23:39.4200859+00:00",
+      "FreshUntil": "2027-02-24T16:23:39.4200859+00:00",
       "LastFailureAt": null,
       "NextRetryAt": null,
       "ErrorSummary": "",
