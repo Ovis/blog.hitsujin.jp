@@ -100,7 +100,8 @@ jobs:
             --theme ./templates \
             --oembed ./.oembed-cache/oembed.json \
             --amazon-cache ./.oembed-cache/amazon.json \
-            --config ./blogconfig.json
+            --config ./blogconfig.json \
+            --webp
 
       - name: Add static site files
         run: |
