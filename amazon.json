@@ -1689,19 +1689,6 @@
     "FailureKind": 1,
     "ErrorSummary": "NotFound"
   },
-  "B0070R4M9G": {
-    "Asin": "B0070R4M9G",
-    "Marketplace": "amazon.co.jp",
-    "Title": null,
-    "ImageUrl": null,
-    "Status": 1,
-    "FreshUntil": null,
-    "NextRetryAt": "2026-10-05T09:48:49.2671804+00:00",
-    "LastSuccessAt": null,
-    "LastFailureAt": "2026-10-05T03:48:49.2671804+00:00",
-    "FailureKind": 0,
-    "ErrorSummary": "Amazon blocked the product page request; Search fallback: Amazon blocked the search request"
-  },
   "B001P9HNOQ": {
     "Asin": "B001P9HNOQ",
     "Marketplace": "amazon.co.jp",
@@ -1714,5 +1701,18 @@
     "LastFailureAt": null,
     "FailureKind": null,
     "ErrorSummary": ""
+  },
+  "B0070R4M9G": {
+    "Asin": "B0070R4M9G",
+    "Marketplace": "amazon.co.jp",
+    "Title": null,
+    "ImageUrl": null,
+    "Status": 1,
+    "FreshUntil": null,
+    "NextRetryAt": "2026-10-05T09:48:49.2671804+00:00",
+    "LastSuccessAt": null,
+    "LastFailureAt": "2026-10-05T03:48:49.2671804+00:00",
+    "FailureKind": 0,
+    "ErrorSummary": "Amazon blocked the product page request; Search fallback: Amazon blocked the search request"
   }
 }
